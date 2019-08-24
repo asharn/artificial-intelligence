@@ -25,6 +25,21 @@
           "veggie",
           "vegg"
         ]
+      },{
+        "value": "Bangalore",
+        "synonyms": [
+          "Bangalore",
+          "bangalore",
+          "Bengaluru",
+          "bengaluru"
+        ]
+      },{
+        "value": "Mumbai",
+        "synonyms": [
+          "mumbai",
+          "Bombay",
+          "mombay"
+        ]
       }
     ],
     "common_examples": [

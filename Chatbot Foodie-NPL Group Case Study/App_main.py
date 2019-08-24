@@ -27,15 +27,32 @@ app.config.update(
 	)
 mail = Mail(app)   
 
+@app.route('/style.css')
+def fetchCss():
+    return render_template('style.css')
+
+@app.route('/script.js')
+def fetchJs():
+    return render_template('script.js')
+
+@app.route('/_config.yml')
+def fetchConfig():
+    return render_template('/_config.yml')
+
+
 @app.route('/')
 def index():
-    return 'Application is working fine.'
+    return render_template('index.html')
+    
     
 interpreter = Interpreter.load('./models/nlu/default/restaurantnlu')
 @app.route('/nlu_parsing', methods=['POST'])
 def transform():
-    if request.headers['Content-Type'] == 'application/json':     
+    print('Rest called outside') 
+    if request.headers['Content-Type'] == 'application/json':   
+        print('Rest called')  
         query = request.json.get("utterance")
+        print(query)  
         results=interpreter.parse(query)
         js = json.dumps(results)
         resp = Response(js, status=200, mimetype='application/json')
@@ -47,7 +64,7 @@ def sendMail():
                 try:
                         recipientEmail = request.json.get("email")
                         restaurants = request.json.get("top-10-restaurants")
-                        msg = Message("Top 10 Restaurants !!!",
+                        msg = Message("Hi, Your search result for top 10 Restaurants!",
                                 sender="dvlpmailsender@gmail.com",
                                 recipients=[recipientEmail])
                         msg.body = restaurants
