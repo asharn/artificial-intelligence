@@ -27,7 +27,7 @@ $("#user-input-form").on("submit", function(e) {
 				outputArea.append(`
 						<div class='bot-message'>
 						  <div class='message'>
-						  Bot: ${data.intent.name}
+						  Bot: ${data.message}
 						  </div>
 						</div>
 					  `);
