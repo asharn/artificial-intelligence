@@ -7,9 +7,9 @@ $("#user-input-form").on("submit", function(e) {
   var message = $("#user-input").val();
   
   outputArea.append(`
-    <div class='bot-message'>
+    <div class='user-message'>
       <div class='message'>
-        ${message}
+	  User: ${message}
       </div>
     </div>
   `);
@@ -19,15 +19,15 @@ $("#user-input-form").on("submit", function(e) {
 		{
 			type: "POST",
 			url: "/nlu_parsing",
-			data: JSON.stringify({"utterance":message}),
+			data: JSON.stringify({"user-utter":message}),
 			contentType: "application/json",
 			dataType: "json",
 			success: function (data) {
-	
+				console.log(data);
 				outputArea.append(`
 						<div class='bot-message'>
 						  <div class='message'>
-						  ${JSON.stringify(data)}
+						  Bot: ${data.intent.name}
 						  </div>
 						</div>
 					  `);
