@@ -18,7 +18,7 @@ $("#user-input-form").on("submit", function(e) {
 	$.ajax(
 		{
 			type: "POST",
-			url: "/nlu_parsing",
+			url: "/user_text_parsing",
 			data: JSON.stringify({"user-utter":message}),
 			contentType: "application/json",
 			dataType: "json",
