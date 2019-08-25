@@ -2,6 +2,1502 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 67,
+            "entity": "city",
+            "start": 58,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hello please i'm looking for places to eat in the area of New Delhi thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "city",
+            "start": 47,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "hey i'm looking for restaurants in the area of Bangalore city"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "city",
+            "start": 34,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hello find restaurants located at mumbai thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "city",
+            "start": 39,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hey please find restaurants located at kolkata city"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "cuisine",
+            "start": 22,
+            "value": "South Indian"
+          },
+          {
+            "end": 41,
+            "entity": "city",
+            "start": 35,
+            "value": "mumbai"
+          }
+        ],
+        "text": "Looking for some good South Indian mumbai"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "city",
+            "start": 41,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hey please find places to eat located at mumbai"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cuisine",
+            "start": 12,
+            "value": "South Indian"
+          },
+          {
+            "end": 34,
+            "entity": "city",
+            "start": 25,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "Looking for South Indian New Delhi"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "city",
+            "start": 18,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "where to eat near New Delhi"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "city",
+            "start": 38,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hi plz help me find where to eat near New Delhi"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 44,
+            "entity": "city",
+            "start": 37,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hello help me find where to eat near kolkata"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "city",
+            "start": 27,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "pls find where to eat near New Delhi thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "city",
+            "start": 30,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hi pls find where to eat near kolkata city thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "city",
+            "start": 32,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "hello plz find restaurants near Bangalore"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "city",
+            "start": 37,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "Looking for some good restaurants at New Delhi"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 46,
+            "entity": "city",
+            "start": 40,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hey please places to eat in the area of mumbai city thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "city",
+            "start": 50,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hey please i'm looking for restaurants located at New Delhi city thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "city",
+            "start": 27,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "hey restaurants located at Bangalore"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "city",
+            "start": 32,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hey pls where to eat located at New Delhi city thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 60,
+            "entity": "city",
+            "start": 51,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hello pls help me find where to eat in the area of New Delhi"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "city",
+            "start": 36,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hey help me find places to eat near mumbai thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "city",
+            "start": 46,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hey help me find places to eat in the area of New Delhi thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "city",
+            "start": 43,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "hi pls help me find restaurants located at Bangalore thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "city",
+            "start": 48,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hi please help me find places to eat located at kolkata thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "city",
+            "start": 33,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hey pls places to eat located at New Delhi"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "city",
+            "start": 29,
+            "value": "mumbai"
+          }
+        ],
+        "text": "find where to eat located at mumbai thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "city",
+            "start": 28,
+            "value": "kolkata"
+          }
+        ],
+        "text": "where to eat in the area of kolkata city thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "cuisine",
+            "start": 0,
+            "value": "South Indian"
+          },
+          {
+            "end": 35,
+            "entity": "city",
+            "start": 28,
+            "value": "kolkata"
+          }
+        ],
+        "text": "South Indian restaurants at kolkata"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "city",
+            "start": 36,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hey plz where to eat in the area of kolkata thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 49,
+            "entity": "city",
+            "start": 43,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hello please find places to eat located at mumbai"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "city",
+            "start": 37,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hello help me find where to eat near mumbai thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "city",
+            "start": 31,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hey pls find where to eat near mumbai city thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cuisine",
+            "start": 17,
+            "value": "North Indian"
+          },
+          {
+            "end": 54,
+            "entity": "city",
+            "start": 45,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "Looking for some North Indian restaurants at Bangalore"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "cuisine",
+            "start": 22,
+            "value": "North Indian"
+          }
+        ],
+        "text": "Looking for some good North Indian restaurants at"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "city",
+            "start": 47,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hi pls help me find restaurants in the area of New Delhi city thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "city",
+            "start": 41,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "Looking out for some good restaurants at Bangalore"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "city",
+            "start": 36,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hi plz places to eat in the area of mumbai thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "city",
+            "start": 44,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hey pls help me find restaurants located at kolkata thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 51,
+            "entity": "city",
+            "start": 44,
+            "value": "kolkata"
+          }
+        ],
+        "text": "please help me find where to eat located at kolkata thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "city",
+            "start": 32,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "Looking for some restaurants in Bangalore"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "city",
+            "start": 38,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "hey plz help me find restaurants near Bangalore thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "cuisine",
+            "start": 26,
+            "value": "South Indian"
+          },
+          {
+            "end": 61,
+            "entity": "city",
+            "start": 54,
+            "value": "kolkata"
+          }
+        ],
+        "text": "Looking out for some good South Indian restaurants in kolkata"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "cuisine",
+            "start": 26,
+            "value": "American"
+          }
+        ],
+        "text": "Looking out for some good American"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "cuisine",
+            "start": 26,
+            "value": "American"
+          },
+          {
+            "end": 56,
+            "entity": "city",
+            "start": 50,
+            "value": "mumbai"
+          }
+        ],
+        "text": "Looking out for some good American restaurants in mumbai"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "city",
+            "start": 38,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hello please places to eat located at kolkata city thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "city",
+            "start": 36,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hi pls find where to eat located at New Delhi city"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cuisine",
+            "start": 12,
+            "value": "North Indian"
+          },
+          {
+            "end": 31,
+            "entity": "city",
+            "start": 25,
+            "value": "mumbai"
+          }
+        ],
+        "text": "Looking for North Indian mumbai"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cuisine",
+            "start": 12,
+            "value": "South Indian"
+          },
+          {
+            "end": 31,
+            "entity": "city",
+            "start": 25,
+            "value": "mumbai"
+          }
+        ],
+        "text": "Looking for South Indian mumbai"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "city",
+            "start": 50,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "hello pls help me find restaurants in the area of Bangalore thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 61,
+            "entity": "city",
+            "start": 52,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "please i'm looking for places to eat in the area of New Delhi thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cuisine",
+            "start": 17,
+            "value": "Chinese"
+          }
+        ],
+        "text": "Looking for some Chinese"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "city",
+            "start": 39,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hello i'm looking for restaurants near New Delhi city thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "city",
+            "start": 36,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hi plz find where to eat located at New Delhi thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "city",
+            "start": 25,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hi pls where to eat near New Delhi city thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "city",
+            "start": 29,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hi please places to eat near New Delhi thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "city",
+            "start": 35,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hey plz restaurants in the area of kolkata"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "city",
+            "start": 39,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hello i'm looking for restaurants near mumbai"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "city",
+            "start": 46,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hi please help me find restaurants located at mumbai city"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "cuisine",
+            "start": 0,
+            "value": "South Indian"
+          },
+          {
+            "end": 20,
+            "entity": "city",
+            "start": 13,
+            "value": "kolkata"
+          }
+        ],
+        "text": "South Indian kolkata"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "city",
+            "start": 36,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "hello find places to eat located at Bangalore"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "city",
+            "start": 27,
+            "value": "kolkata"
+          }
+        ],
+        "text": "plz restaurants located at kolkata thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "city",
+            "start": 25,
+            "value": "kolkata"
+          }
+        ],
+        "text": "please where to eat near kolkata city"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "city",
+            "start": 43,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hey i'm looking for restaurants located at New Delhi city"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "cuisine",
+            "start": 22,
+            "value": "North Indian"
+          }
+        ],
+        "text": "Looking for some good North Indian"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 45,
+            "entity": "city",
+            "start": 36,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "hey pls find restaurants located at Bangalore"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 52,
+            "entity": "city",
+            "start": 43,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "hello pls i'm looking for restaurants near Bangalore city thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "city",
+            "start": 34,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hey please restaurants located at New Delhi"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "city",
+            "start": 34,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hello find restaurants located at New Delhi thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "city",
+            "start": 48,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hey pls i'm looking for where to eat located at kolkata city thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "city",
+            "start": 37,
+            "value": "mumbai"
+          }
+        ],
+        "text": "please help me find restaurants near mumbai city thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "city",
+            "start": 41,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hey pls find where to eat in the area of kolkata thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "city",
+            "start": 41,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hi pls find places to eat in the area of kolkata thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cuisine",
+            "start": 12,
+            "value": "Mexican"
+          },
+          {
+            "end": 44,
+            "entity": "city",
+            "start": 35,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "Looking for Mexican restaurants at New Delhi"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 48,
+            "entity": "city",
+            "start": 41,
+            "value": "kolkata"
+          }
+        ],
+        "text": "Looking out for some good restaurants in kolkata"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "city",
+            "start": 28,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "where to eat in the area of Bangalore"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "cuisine",
+            "start": 26,
+            "value": "Mexican"
+          },
+          {
+            "end": 43,
+            "entity": "city",
+            "start": 34,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "Looking out for some good Mexican New Delhi"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cuisine",
+            "start": 12,
+            "value": "Mexican"
+          },
+          {
+            "end": 44,
+            "entity": "city",
+            "start": 35,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "Looking for Mexican restaurants at Bangalore"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "city",
+            "start": 41,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "Looking out for some good restaurants at New Delhi"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "city",
+            "start": 24,
+            "value": "kolkata"
+          }
+        ],
+        "text": "where to eat located at kolkata"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "city",
+            "start": 34,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hi help me find where to eat near mumbai thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 54,
+            "entity": "city",
+            "start": 48,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hi pls i'm looking for places to eat located at mumbai"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "city",
+            "start": 22,
+            "value": "kolkata"
+          }
+        ],
+        "text": "Looking for some good kolkata"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "cuisine",
+            "start": 22,
+            "value": "American"
+          }
+        ],
+        "text": "Looking for some good American restaurants at"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 59,
+            "entity": "city",
+            "start": 52,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hi pls i'm looking for places to eat in the area of kolkata thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "city",
+            "start": 25,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hello places to eat near kolkata city"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 60,
+            "entity": "city",
+            "start": 53,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hello pls i'm looking for restaurants in the area of kolkata thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "city",
+            "start": 27,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hey find where to eat near kolkata thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 55,
+            "entity": "city",
+            "start": 48,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hi please help me find places to eat located at kolkata city thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 60,
+            "entity": "city",
+            "start": 51,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "hey please help me find restaurants in the area of New Delhi thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 56,
+            "entity": "city",
+            "start": 50,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hey pls help me find places to eat in the area of mumbai thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "city",
+            "start": 27,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "hi find places to eat near Bangalore city thank you"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 58,
+            "entity": "city",
+            "start": 49,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "please help me find places to eat in the area of New Delhi city thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "cuisine",
+            "start": 17,
+            "value": "South Indian"
+          },
+          {
+            "end": 54,
+            "entity": "city",
+            "start": 45,
+            "value": "Bangalore"
+          }
+        ],
+        "text": "Looking for some South Indian restaurants in Bangalore"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "city",
+            "start": 36,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hello help me find restaurants near kolkata thanks"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 50,
+            "entity": "city",
+            "start": 44,
+            "value": "mumbai"
+          }
+        ],
+        "text": "hey please i'm looking for restaurants near mumbai city"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "city",
+            "start": 32,
+            "value": "kolkata"
+          }
+        ],
+        "text": "hi please find restaurants near kolkata"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cuisine",
+            "start": 17,
+            "value": "Italian"
+          },
+          {
+            "end": 49,
+            "entity": "city",
+            "start": 40,
+            "value": "New Delhi"
+          }
+        ],
+        "text": "Looking for some Italian restaurants in New Delhi"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "city",
+            "start": 32,
+            "value": "mumbai"
+          }
+        ],
+        "text": "Looking for some restaurants at mumbai"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cuisine",
+            "start": 17,
+            "value": "Italian"
+          },
+          {
+            "end": 46,
+            "entity": "city",
+            "start": 40,
+            "value": "mumbai"
+          }
+        ],
+        "text": "Looking for some Italian restaurants in mumbai"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "city",
+            "start": 41,
+            "value": "mumbai"
+          }
+        ],
+        "text": "Looking out for some good restaurants at mumbai"
+      },
+      {
+        "intent": "RestaurantSearch",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "cuisine",
+            "start": 26,
+            "value": "Chinese"
+          },
+          {
+            "end": 40,
+            "entity": "city",
+            "start": 34,
+            "value": "mumbai"
+          }
+        ],
+        "text": "Looking out for some good Chinese mumbai"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello greetings how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "hey good night are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "morning are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "hey morning how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning how are things going"
+      },
+      {
+        "intent": "greet",
+        "text": "good day how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "hey good night are you around?"
+      },
+      {
+        "intent": "greet",
+        "text": "good night sup"
+      },
+      {
+        "intent": "greet",
+        "text": "hello good afternoon how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "hey good afternoon how are things going"
+      },
+      {
+        "intent": "greet",
+        "text": "hey morning are you around"
+      },
+      {
+        "intent": "greet",
+        "text": "hey greetings whatsup"
+      },
+      {
+        "intent": "greet",
+        "text": "hello are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi morning are you around?"
+      },
+      {
+        "intent": "greet",
+        "text": "hello greetings how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "hello good day how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "hey how are things going"
+      },
+      {
+        "intent": "greet",
+        "text": "good day how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "good night how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning whatsup"
+      },
+      {
+        "intent": "greet",
+        "text": "hello good afternoon how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good morning are you around"
+      },
+      {
+        "intent": "greet",
+        "text": "hi greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hey greetings how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "hey good morning whatsup"
+      },
+      {
+        "intent": "greet",
+        "text": "hey good night whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "good day are you around?"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon sup"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good morning how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "hey good afternoon how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hi greetings how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good afternoon are you around"
+      },
+      {
+        "intent": "greet",
+        "text": "hello greetings are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey good afternoon are you around?"
+      },
+      {
+        "intent": "greet",
+        "text": "hey greetings whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "hey whatsup"
+      },
+      {
+        "intent": "greet",
+        "text": "hello good morning are you around?"
+      },
+      {
+        "intent": "greet",
+        "text": "morning how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "hey good morning sup"
+      },
+      {
+        "intent": "greet",
+        "text": "hello whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "good day are you there"
+      },
+      {
+        "intent": "greet",
+        "text": "hey morning are you around?"
+      },
+      {
+        "intent": "greet",
+        "text": "hey good afternoon how is it going"
+      },
+      {
+        "intent": "greet",
+        "text": "hi good morning how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "hello morning are you around"
+      },
+      {
         "intent": "greet",
         "text": "hey"
       },
@@ -16,6 +1512,10 @@
       {
         "intent": "greet",
         "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hola"
       },
       {
         "intent": "greet",
@@ -34,468 +1534,2716 @@
         "text": "dear sir"
       },
       {
-        "intent": "affirm",
-        "text": "yes"
+        "intent": "bye",
+        "text": "chao"
       },
       {
-        "intent": "affirm",
-        "text": "yep"
+        "intent": "bye",
+        "text": "talk to you soon goodbye"
       },
       {
-        "intent": "affirm",
-        "text": "yeah"
+        "intent": "bye",
+        "text": "got to go"
       },
       {
-        "intent": "affirm",
-        "text": "indeed"
+        "intent": "bye",
+        "text": "going out bye"
       },
       {
-        "intent": "affirm",
-        "text": "that's right"
+        "intent": "bye",
+        "text": "chau"
       },
       {
-        "intent": "affirm",
-        "text": "ok"
+        "intent": "bye",
+        "text": "have to go bye"
       },
       {
-        "intent": "affirm",
-        "text": "great"
+        "intent": "bye",
+        "text": "going out ttyl"
       },
       {
-        "intent": "affirm",
-        "text": "right, thank you"
+        "intent": "bye",
+        "text": "im leaving now chau"
       },
       {
-        "intent": "affirm",
+        "intent": "bye",
+        "text": "talk to you soon adieu"
+      },
+      {
+        "intent": "bye",
+        "text": "going out"
+      },
+      {
+        "intent": "bye",
+        "text": "adios"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you later adieu"
+      },
+      {
+        "intent": "bye",
+        "text": "got to go ttyl"
+      },
+      {
+        "intent": "bye",
+        "text": "leaving ttyl"
+      },
+      {
+        "intent": "bye",
+        "text": "have to go chao"
+      },
+      {
+        "intent": "bye",
+        "text": "bye thank you"
+      },
+      {
+        "intent": "bye",
+        "text": "going out adieu"
+      },
+      {
+        "intent": "bye",
+        "text": "leaving gtg"
+      },
+      {
+        "intent": "bye",
+        "text": "im leaving now adios"
+      },
+      {
+        "intent": "bye",
+        "text": "ttyl thank you"
+      },
+      {
+        "intent": "bye",
+        "text": "got to go adieu"
+      },
+      {
+        "intent": "bye",
+        "text": "farewell thanks"
+      },
+      {
+        "intent": "bye",
+        "text": "got to go adios"
+      },
+      {
+        "intent": "bye",
+        "text": "leaving bye"
+      },
+      {
+        "intent": "bye",
+        "text": "heading out bye"
+      },
+      {
+        "intent": "bye",
+        "text": "thank you goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you later chao"
+      },
+      {
+        "intent": "bye",
+        "text": "have to go farewell"
+      },
+      {
+        "intent": "bye",
+        "text": "chao thanks"
+      },
+      {
+        "intent": "bye",
+        "text": "leaving chao"
+      },
+      {
+        "intent": "bye",
+        "text": "got to go goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "thank you adios"
+      },
+      {
+        "intent": "bye",
+        "text": "im leaving now gtg"
+      },
+      {
+        "intent": "bye",
+        "text": "heading out goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "thanks gtg"
+      },
+      {
+        "intent": "bye",
+        "text": "im leaving now ttyl"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you soon gtg"
+      },
+      {
+        "intent": "bye",
+        "text": "have to go adios"
+      },
+      {
+        "intent": "bye",
+        "text": "heading out farewell"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you later adios"
+      },
+      {
+        "intent": "bye",
+        "text": "goodbye thanks"
+      },
+      {
+        "intent": "bye",
+        "text": "have to go chau"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you later bye"
+      },
+      {
+        "intent": "bye",
+        "text": "going out gtg"
+      },
+      {
+        "intent": "bye",
+        "text": "adieu thanks"
+      },
+      {
+        "intent": "bye",
+        "text": "leaving farewell"
+      },
+      {
+        "intent": "bye",
+        "text": "got to go farewell"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "bye",
+        "text": "got to go chao"
+      },
+      {
+        "intent": "bye",
+        "text": "talk to you soon chau"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right agreed"
+      },
+      {
+        "intent": "affirmative",
+        "text": "that is correct agreed"
+      },
+      {
+        "intent": "affirmative",
+        "text": "sounds good"
+      },
+      {
+        "intent": "affirmative",
         "text": "correct"
       },
       {
-        "intent": "affirm",
-        "text": "great choice"
+        "intent": "affirmative",
+        "text": "right right thank you"
       },
       {
-        "intent": "affirm",
-        "text": "sounds really good"
+        "intent": "affirmative",
+        "text": "yep that is fine correct"
       },
       {
-        "intent": "restaurant_search",
-        "text": "i'm looking for a place to eat"
+        "intent": "affirmative",
+        "text": "im ok with that that is good yep"
       },
       {
-        "intent": "restaurant_search",
-        "text": "I want to grab lunch"
+        "intent": "affirmative",
+        "text": "yep yes sir thank you"
       },
       {
-        "intent": "restaurant_search",
-        "text": "I am searching for a dinner spot"
+        "intent": "affirmative",
+        "text": "agreed im ok with that thanks"
       },
       {
-        "intent": "restaurant_search",
+        "intent": "affirmative",
+        "text": "yes sir that is what i want right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "affirmative you understood me yep"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct you understood me"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep agreed thanks"
+      },
+      {
+        "intent": "affirmative",
+        "text": "im ok with that affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right its fine correct"
+      },
+      {
+        "intent": "affirmative",
+        "text": "agreed that is correct im ok with that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "sounds good that is correct im ok with that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes you understood me yes sir"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep correct"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct good right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep that is what i want yes sir"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right i want that yes"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes sir that is what i want yes sir"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right im ok with that thank you"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep sounds good"
+      },
+      {
+        "intent": "affirmative",
+        "text": "you understood me affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "agreed"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct that is right im ok with that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "sounds good sounds good thank you"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep that is good affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "im ok with that good sounds good"
+      },
+      {
+        "intent": "affirmative",
+        "text": "agreed that is what i want correct"
+      },
+      {
+        "intent": "affirmative",
+        "text": "im ok with that that is correct right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "that is fine im ok with that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "affirmative its fine"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep that is fine im ok with that"
+      },
+      {
+        "intent": "affirmative",
+        "text": "agreed you understood me right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right good yep"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct correct"
+      },
+      {
+        "intent": "affirmative",
+        "text": "good sounds good"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes yes sir thanks"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep correct thanks"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yep that is right affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right that is fine right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "agreed that is what i want right"
+      },
+      {
+        "intent": "affirmative",
+        "text": "correct i want that yes sir"
+      },
+      {
+        "intent": "affirmative",
+        "text": "you understood me yes"
+      },
+      {
+        "intent": "affirmative",
+        "text": "yes sir that is fine affirmative"
+      },
+      {
+        "intent": "affirmative",
+        "text": "right that is fine"
+      },
+      {
+        "intent": "negative",
+        "text": "pls don't do that that's not what i want"
+      },
+      {
+        "intent": "negative",
+        "text": "pls that's not right that's not what i want"
+      },
+      {
+        "intent": "negative",
+        "text": "pls not really i don't want that"
+      },
+      {
+        "intent": "negative",
+        "text": "plz incorrect dont mean that"
+      },
+      {
+        "intent": "negative",
+        "text": "don't do that"
+      },
+      {
+        "intent": "negative",
+        "text": "that's not what i want"
+      },
+      {
+        "intent": "negative",
+        "text": "not really please i don't want that"
+      },
+      {
+        "intent": "negative",
+        "text": "nope plz its not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "plz incorrect"
+      },
+      {
+        "intent": "negative",
+        "text": "pls incorrect i don't want that"
+      },
+      {
+        "intent": "negative",
+        "text": "please not really that's not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect pls that is wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "that's not right plz i don't want that"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect please dont mean that"
+      },
+      {
+        "intent": "negative",
+        "text": "please that's not right its not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect please"
+      },
+      {
+        "intent": "negative",
+        "text": "please nope i don't want that"
+      },
+      {
+        "intent": "negative",
+        "text": "no that's not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "pls that's not right dont mean that"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect it's not good"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect"
+      },
+      {
+        "intent": "negative",
+        "text": "please incorrect that's not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "not really its not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "nope plz its not ok"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect pls its not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect that's wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "not really didnt meant that"
+      },
+      {
+        "intent": "negative",
+        "text": "pls that's not right"
+      },
+      {
+        "intent": "negative",
+        "text": "that's not right please its not ok"
+      },
+      {
+        "intent": "negative",
+        "text": "pls no that's not correct"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect please that is wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "not really that's not what i want"
+      },
+      {
+        "intent": "negative",
+        "text": "don't do that pls its not ok"
+      },
+      {
+        "intent": "negative",
+        "text": "don't do that pls that is wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "nope pls it's not good"
+      },
+      {
+        "intent": "negative",
+        "text": "please that's not right it's not good"
+      },
+      {
+        "intent": "negative",
+        "text": "please that's not right that's not what i want"
+      },
+      {
+        "intent": "negative",
+        "text": "pls no its not ok"
+      },
+      {
+        "intent": "negative",
+        "text": "please incorrect it's not good"
+      },
+      {
+        "intent": "negative",
+        "text": "don't do that that's not what i want"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect i don't want that"
+      },
+      {
+        "intent": "negative",
+        "text": "don't do that plz that's wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "not really pls i don't want that"
+      },
+      {
+        "intent": "negative",
+        "text": "no its not ok"
+      },
+      {
+        "intent": "negative",
+        "text": "pls no it's not good"
+      },
+      {
+        "intent": "negative",
+        "text": "not really that is wrong"
+      },
+      {
+        "intent": "negative",
+        "text": "pls nope it's not good"
+      },
+      {
+        "intent": "negative",
+        "text": "not really it's not good"
+      },
+      {
+        "intent": "negative",
+        "text": "pls no that's not what i want"
+      },
+      {
+        "intent": "negative",
+        "text": "incorrect pls"
+      },
+      {
+        "intent": "sendemail",
         "entities": [
           {
-            "start": 31,
-            "end": 36,
-            "value": "north",
-            "entity": "location"
-          }
-        ],
-        "text": "i'm looking for a place in the north of town"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 8,
-            "end": 15,
-            "value": "chinese",
-            "entity": "cuisine"
-          }
-        ],
-        "text": "show me chinese restaurants"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 8,
-            "end": 14,
-            "value": "chinese",
-            "entity": "cuisine"
-          },
-          {
-            "start": 34,
-            "end": 39,
-            "value": "north",
-            "entity": "location"
-          }
-        ],
-        "text": "show me chines restaurants in the north"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 31,
-            "end": 37,
-            "value": "centre",
-            "entity": "location"
-          },
-          {
-            "start": 10,
-            "end": 17,
-            "value": "mexican",
-            "entity": "cuisine"
-          }
-        ],
-        "text": "show me a mexican place in the centre"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 20,
-            "end": 26,
-            "value": "indian",
-            "entity": "cuisine"
-          }
-        ],
-        "text": "i am looking for an indian spot called olaolaolaolaolaola"
-      },
-      {
-        "intent": "restaurant_search",
-        "text": "search for restaurants"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
+            "end": 25,
+            "entity": "email",
             "start": 16,
-            "end": 20,
-            "value": "west",
-            "entity": "location"
+            "value": "abc@g.com"
           }
         ],
-        "text": "anywhere in the west"
+        "text": "send to emailid abc@g.com thanks"
       },
       {
-        "intent": "restaurant_search",
+        "intent": "sendemail",
         "entities": [
           {
-            "start": 14,
-            "end": 19,
-            "value": "18328",
-            "entity": "location"
+            "end": 26,
+            "entity": "email",
+            "start": 13,
+            "value": "xyz@yahoo.com"
           }
         ],
-        "text": "anywhere near 18328"
+        "text": "plz to email xyz@yahoo.com thank you"
       },
       {
-        "intent": "restaurant_search",
+        "intent": "sendemail",
         "entities": [
           {
-            "start": 17,
-            "end": 29,
-            "value": "asian fusion",
-            "entity": "cuisine"
+            "end": 24,
+            "entity": "email",
+            "start": 15,
+            "value": "abc@g.com"
           }
         ],
-        "text": "I am looking for asian fusion food"
+        "text": "plz to emailid abc@g.com thank you"
       },
       {
-        "intent": "restaurant_search",
+        "intent": "sendemail",
         "entities": [
           {
-            "start": 29,
-            "end": 34,
-            "value": "29432",
-            "entity": "location"
-          }
-        ],
-        "text": "I am looking a restaurant in 29432"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
+            "end": 16,
+            "entity": "email",
             "start": 3,
-            "end": 9,
-            "value": "London",
-            "entity": "location"
+            "value": "abc@gmail.com"
           }
         ],
-        "text": "in London"
+        "text": "at abc@gmail.com"
       },
       {
-        "intent": "restaurant_search",
+        "intent": "sendemail",
         "entities": [
           {
-            "start": 0,
+            "end": 25,
+            "entity": "email",
+            "start": 12,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "please send xyz@yahoo.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "email",
+            "start": 19,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "send to my emailid abc@live.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "email",
+            "start": 7,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "plz to xyz@yahoo.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "email",
+            "start": 9,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "to email xyz@yahoo.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "email",
+            "start": 7,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "pls to abc@live.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "email",
+            "start": 14,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "to my emailid abc@gmail.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "email",
+            "start": 14,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "send to email abc@g.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "email",
+            "start": 10,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "plz me at abc@g.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "email",
+            "start": 5,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "send xyz@yahoo.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "email",
+            "start": 12,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "to my email abc@g.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "email",
+            "start": 9,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "pls send xyz@yahoo.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "email",
+            "start": 18,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "please send me at xyz@yahoo.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "email",
+            "start": 14,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "send to email abc@gmail.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "email",
+            "start": 15,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "plz send me at abc@g.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "email",
+            "start": 20,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "plz send to emailid xyz@yahoo.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "email",
+            "start": 12,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "to my email abc@live.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "email",
+            "start": 17,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "send to my email abc@gmail.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "email",
+            "start": 13,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "pls to email abc@live.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "email",
+            "start": 11,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "send me to xyz@yahoo.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "email",
+            "start": 3,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "to abc@live.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "email",
+            "start": 9,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "to email abc@g.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "email",
+            "start": 15,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "pls send me at abc@gmail.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "email",
+            "start": 16,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "send to emailid abc@g.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "email",
+            "start": 10,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "pls me at abc@gmail.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "email",
+            "start": 15,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "please send to abc@gmail.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "email",
+            "start": 12,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "to my email xyz@yahoo.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "email",
+            "start": 11,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "send me to abc@g.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "email",
+            "start": 9,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "to email abc@live.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "email",
+            "start": 9,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "to email abc@live.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "email",
+            "start": 8,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "send at xyz@yahoo.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "email",
+            "start": 9,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "plz send abc@live.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
             "end": 12,
-            "value": "South Indian",
-            "entity": "cuisine"
+            "entity": "email",
+            "start": 0,
+            "value": "abc@live.com"
           }
         ],
-        "text": "South Indian"
+        "text": "abc@live.com thanks"
       },
       {
-        "intent": "restaurant_search",
+        "intent": "sendemail",
         "entities": [
           {
-            "start": 0,
+            "end": 33,
+            "entity": "email",
+            "start": 21,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "please send to email abc@live.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "email",
+            "start": 12,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "to my email abc@gmail.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "email",
+            "start": 18,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "please send me to xyz@yahoo.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "email",
+            "start": 15,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "pls to emailid xyz@yahoo.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "email",
+            "start": 21,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "please to my emailid abc@live.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "email",
+            "start": 6,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "me at abc@live.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "email",
+            "start": 3,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "to abc@live.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "email",
+            "start": 17,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "send to my email abc@live.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "email",
+            "start": 10,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "please at abc@live.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "email",
+            "start": 23,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "please send to emailid abc@g.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "email",
+            "start": 8,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "send to xyz@yahoo.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "email",
+            "start": 19,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "send to my emailid xyz@yahoo.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "email",
+            "start": 14,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "to my emailid xyz@yahoo.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "email",
+            "start": 8,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "send to abc@gmail.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "email",
+            "start": 13,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "pls to email abc@gmail.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "email",
+            "start": 23,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "please send to emailid abc@live.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "email",
+            "start": 19,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "send to my emailid abc@gmail.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "email",
+            "start": 15,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "pls to emailid abc@g.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "email",
+            "start": 8,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "send to abc@live.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "email",
+            "start": 10,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "pls me to abc@g.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "email",
+            "start": 8,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "send at abc@gmail.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "email",
+            "start": 14,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "to my emailid abc@g.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "email",
+            "start": 5,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "send abc@gmail.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "email",
+            "start": 16,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "plz to my email abc@g.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "email",
+            "start": 3,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "to abc@live.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "email",
+            "start": 12,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "pls send to abc@live.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "email",
+            "start": 18,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "pls to my emailid xyz@yahoo.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "email",
+            "start": 18,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "plz to my emailid abc@live.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "email",
+            "start": 7,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "plz to abc@g.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
             "end": 12,
-            "value": "North Indian",
-            "entity": "cuisine"
+            "entity": "email",
+            "start": 0,
+            "value": "abc@live.com"
           }
         ],
-        "text": "North Indian"
+        "text": "abc@live.com"
       },
       {
-        "intent": "restaurant_search",
+        "intent": "sendemail",
         "entities": [
           {
-            "start": 0,
-            "end": 7,
-            "value": "Italian",
-            "entity": "cuisine"
+            "end": 26,
+            "entity": "email",
+            "start": 13,
+            "value": "abc@gmail.com"
           }
         ],
-        "text": "Italian"
+        "text": "pls to email abc@gmail.com thank you"
       },
       {
-        "intent": "restaurant_search",
+        "intent": "sendemail",
         "entities": [
           {
+            "end": 15,
+            "entity": "email",
+            "start": 3,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "at abc@live.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "email",
+            "start": 23,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "plz send to my emailid abc@gmail.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "email",
+            "start": 3,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "at abc@gmail.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "email",
+            "start": 15,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "please send at abc@live.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "email",
+            "start": 11,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "send me to abc@gmail.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "email",
+            "start": 24,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "please send to my email xyz@yahoo.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "email",
+            "start": 3,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "to abc@g.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "email",
+            "start": 15,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "plz send me to abc@gmail.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "email",
+            "start": 12,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "pls send at abc@live.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "email",
+            "start": 4,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "pls abc@live.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "email",
+            "start": 6,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "me to abc@live.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "email",
+            "start": 8,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "send to abc@g.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "email",
+            "start": 8,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "send to abc@g.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "email",
+            "start": 3,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "to abc@gmail.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "email",
+            "start": 3,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "to xyz@yahoo.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "email",
+            "start": 12,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "to my email xyz@yahoo.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "email",
+            "start": 23,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "please send to emailid abc@live.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "email",
+            "start": 15,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "please send at xyz@yahoo.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "email",
+            "start": 10,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "plz me at abc@gmail.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "email",
+            "start": 3,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "at abc@g.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "email",
+            "start": 11,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "send me at abc@g.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "email",
+            "start": 5,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "send abc@gmail.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "email",
+            "start": 8,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "send at xyz@yahoo.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "email",
+            "start": 7,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "plz at abc@gmail.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "email",
+            "start": 19,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "please to my email abc@g.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "email",
+            "start": 13,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "pls to email abc@g.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "email",
+            "start": 15,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "plz send me to abc@g.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "email",
+            "start": 11,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "to emailid abc@live.com"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "email",
+            "start": 6,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "me at abc@g.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "email",
+            "start": 18,
+            "value": "abc@live.com"
+          }
+        ],
+        "text": "please send me to abc@live.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "email",
+            "start": 16,
+            "value": "abc@g.com"
+          }
+        ],
+        "text": "please to email abc@g.com thanks"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "email",
+            "start": 12,
+            "value": "abc@gmail.com"
+          }
+        ],
+        "text": "pls send at abc@gmail.com thank you"
+      },
+      {
+        "intent": "sendemail",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "email",
+            "start": 4,
+            "value": "xyz@yahoo.com"
+          }
+        ],
+        "text": "plz xyz@yahoo.com thanks"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "price",
             "start": 0,
+            "value": "300"
+          },
+          {
+            "end": 11,
+            "entity": "price",
+            "start": 8,
+            "value": "300"
+          }
+        ],
+        "text": "300  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "price",
+            "start": 11,
+            "value": "300"
+          },
+          {
+            "end": 22,
+            "entity": "price",
+            "start": 19,
+            "value": "300"
+          }
+        ],
+        "text": "in between 300  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "price",
+            "start": 7,
+            "value": "300"
+          },
+          {
+            "end": 18,
+            "entity": "price",
+            "start": 15,
+            "value": "300"
+          }
+        ],
+        "text": "within 300  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "price",
+            "start": 0,
+            "value": "700"
+          },
+          {
+            "end": 11,
+            "entity": "price",
+            "start": 8,
+            "value": "300"
+          }
+        ],
+        "text": "700  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "price",
+            "start": 11,
+            "value": "700"
+          },
+          {
+            "end": 22,
+            "entity": "price",
+            "start": 19,
+            "value": "300"
+          }
+        ],
+        "text": "in between 700  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "price",
+            "start": 8,
+            "value": "700"
+          },
+          {
+            "end": 19,
+            "entity": "price",
+            "start": 16,
+            "value": "300"
+          }
+        ],
+        "text": "between 700  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "price",
+            "start": 0,
+            "value": "300"
+          },
+          {
+            "end": 11,
+            "entity": "price",
+            "start": 8,
+            "value": "700"
+          }
+        ],
+        "text": "300  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "price",
+            "start": 13,
+            "value": "300"
+          },
+          {
+            "end": 24,
+            "entity": "price",
+            "start": 21,
+            "value": "700"
+          }
+        ],
+        "text": "in the range 300  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "price",
+            "start": 11,
+            "value": "300"
+          },
+          {
+            "end": 22,
+            "entity": "price",
+            "start": 19,
+            "value": "700"
+          }
+        ],
+        "text": "in between 300  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "price",
+            "start": 8,
+            "value": "300"
+          },
+          {
+            "end": 19,
+            "entity": "price",
+            "start": 16,
+            "value": "700"
+          }
+        ],
+        "text": "between 300  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "price",
+            "start": 13,
+            "value": "700"
+          },
+          {
+            "end": 24,
+            "entity": "price",
+            "start": 21,
+            "value": "700"
+          }
+        ],
+        "text": "in the range 700  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 10,
+            "entity": "price",
+            "start": 7,
+            "value": "700"
+          },
+          {
+            "end": 18,
+            "entity": "price",
+            "start": 15,
+            "value": "700"
+          }
+        ],
+        "text": "within 700  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "price",
+            "start": 18,
+            "value": "300"
+          },
+          {
+            "end": 29,
+            "entity": "price",
+            "start": 26,
+            "value": "300"
+          }
+        ],
+        "text": "budget is between 300  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "price",
+            "start": 17,
+            "value": "300"
+          },
+          {
+            "end": 28,
+            "entity": "price",
+            "start": 25,
+            "value": "300"
+          }
+        ],
+        "text": "budget is within 300  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "price",
+            "start": 20,
+            "value": "300"
+          },
+          {
+            "end": 31,
+            "entity": "price",
+            "start": 28,
+            "value": "300"
+          }
+        ],
+        "text": "my budget is within 300  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "price",
+            "start": 10,
+            "value": "700"
+          },
+          {
+            "end": 21,
+            "entity": "price",
+            "start": 18,
+            "value": "300"
+          }
+        ],
+        "text": "budget is 700  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "price",
+            "start": 26,
+            "value": "700"
+          },
+          {
+            "end": 37,
+            "entity": "price",
+            "start": 34,
+            "value": "300"
+          }
+        ],
+        "text": "my budget is in the range 700  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "price",
+            "start": 21,
+            "value": "700"
+          },
+          {
+            "end": 32,
+            "entity": "price",
+            "start": 29,
+            "value": "300"
+          }
+        ],
+        "text": "budget is in between 700  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "price",
+            "start": 24,
+            "value": "700"
+          },
+          {
+            "end": 35,
+            "entity": "price",
+            "start": 32,
+            "value": "300"
+          }
+        ],
+        "text": "my budget is in between 700  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "price",
+            "start": 18,
+            "value": "700"
+          },
+          {
+            "end": 29,
+            "entity": "price",
+            "start": 26,
+            "value": "300"
+          }
+        ],
+        "text": "budget is between 700  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "price",
+            "start": 21,
+            "value": "700"
+          },
+          {
+            "end": 32,
+            "entity": "price",
+            "start": 29,
+            "value": "300"
+          }
+        ],
+        "text": "my budget is between 700  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "price",
+            "start": 17,
+            "value": "700"
+          },
+          {
+            "end": 28,
+            "entity": "price",
+            "start": 25,
+            "value": "300"
+          }
+        ],
+        "text": "budget is within 700  to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "price",
+            "start": 10,
+            "value": "300"
+          },
+          {
+            "end": 21,
+            "entity": "price",
+            "start": 18,
+            "value": "700"
+          }
+        ],
+        "text": "budget is 300  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "price",
+            "start": 13,
+            "value": "300"
+          },
+          {
+            "end": 24,
+            "entity": "price",
+            "start": 21,
+            "value": "700"
+          }
+        ],
+        "text": "my budget is 300  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "price",
+            "start": 23,
+            "value": "300"
+          },
+          {
+            "end": 34,
+            "entity": "price",
+            "start": 31,
+            "value": "700"
+          }
+        ],
+        "text": "budget is in the range 300  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "price",
+            "start": 26,
+            "value": "300"
+          },
+          {
+            "end": 37,
+            "entity": "price",
+            "start": 34,
+            "value": "700"
+          }
+        ],
+        "text": "my budget is in the range 300  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "price",
+            "start": 21,
+            "value": "300"
+          },
+          {
+            "end": 32,
+            "entity": "price",
+            "start": 29,
+            "value": "700"
+          }
+        ],
+        "text": "budget is in between 300  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "price",
+            "start": 24,
+            "value": "300"
+          },
+          {
+            "end": 35,
+            "entity": "price",
+            "start": 32,
+            "value": "700"
+          }
+        ],
+        "text": "my budget is in between 300  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "price",
+            "start": 17,
+            "value": "300"
+          },
+          {
+            "end": 28,
+            "entity": "price",
+            "start": 25,
+            "value": "700"
+          }
+        ],
+        "text": "budget is within 300  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "price",
+            "start": 23,
+            "value": "700"
+          },
+          {
+            "end": 34,
+            "entity": "price",
+            "start": 31,
+            "value": "700"
+          }
+        ],
+        "text": "budget is in the range 700  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "price",
+            "start": 26,
+            "value": "700"
+          },
+          {
+            "end": 37,
+            "entity": "price",
+            "start": 34,
+            "value": "700"
+          }
+        ],
+        "text": "my budget is in the range 700  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "price",
+            "start": 24,
+            "value": "700"
+          },
+          {
+            "end": 35,
+            "entity": "price",
+            "start": 32,
+            "value": "700"
+          }
+        ],
+        "text": "my budget is in between 700  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "price",
+            "start": 18,
+            "value": "700"
+          },
+          {
+            "end": 29,
+            "entity": "price",
+            "start": 26,
+            "value": "700"
+          }
+        ],
+        "text": "budget is between 700  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "price",
+            "start": 17,
+            "value": "700"
+          },
+          {
+            "end": 28,
+            "entity": "price",
+            "start": 25,
+            "value": "700"
+          }
+        ],
+        "text": "budget is within 700  to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "price",
+            "start": 10,
+            "value": "300"
+          }
+        ],
+        "text": "more than 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "price",
+            "start": 12,
+            "value": "300"
+          }
+        ],
+        "text": "lesser than 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 3,
+            "entity": "price",
+            "start": 0,
+            "value": "700"
+          }
+        ],
+        "text": "700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "price",
+            "start": 10,
+            "value": "700"
+          }
+        ],
+        "text": "more than 700"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
             "end": 7,
-            "value": "chinese",
-            "entity": "cuisine"
+            "entity": "cuisine",
+            "start": 0,
+            "value": "Chinese"
           }
         ],
         "text": "Chinese"
       },
       {
-        "intent": "restaurant_search",
+        "intent": "cuisinetype",
         "entities": [
           {
-            "start": 0,
-            "end": 7,
-            "value": "chinese",
-            "entity": "cuisine"
-          }
-        ],
-        "text": "chinese"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 0,
-            "end": 9,
-            "value": "Lithuania",
-            "entity": "location"
-          }
-        ],
-        "text": "Lithuania"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
+            "end": 21,
+            "entity": "cuisine",
             "start": 14,
-            "end": 19,
-            "value": "Italy",
-            "entity": "location"
+            "value": "Chinese"
           }
         ],
-        "text": "Oh, sorry, in Italy"
+        "text": "i will prefer Chinese"
       },
       {
-        "intent": "restaurant_search",
+        "intent": "cuisinetype",
         "entities": [
           {
-            "start": 3,
-            "end": 8,
-            "value": "delhi",
-            "entity": "location"
+            "end": 22,
+            "entity": "cuisine",
+            "start": 15,
+            "value": "Chinese"
           }
         ],
-        "text": "in delhi"
+        "text": "i will go with Chinese"
       },
       {
-        "intent": "restaurant_search",
+        "intent": "cuisinetype",
         "entities": [
           {
-            "start": 3,
-            "end": 8,
-            "value": "delhi",
-            "entity": "location"
+            "end": 20,
+            "entity": "cuisine",
+            "start": 13,
+            "value": "Chinese"
           }
         ],
-        "text": "In Delhi"
+        "text": "i'll go with Chinese"
       },
       {
-        "intent": "restaurant_search",
+        "intent": "cuisinetype",
         "entities": [
           {
-            "start": 3,
-            "end": 8,
-            "value": "delhi",
-            "entity": "location"
-          }
-        ],
-        "text": "Delhi"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 3,
-            "end": 8,
-            "value": "Delhi",
-            "entity": "location"
-          }
-        ],
-        "text": "In Delhi."
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 37,
-            "end": 42,
-            "value": "Delhi",
-            "entity": "location"
-          }
-        ],
-        "text": "I am looking for some restaurants in Delhi."
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 37,
-            "end": 42,
-            "value": "Delhi",
-            "entity": "location"
-          }
-        ],
-        "text": "I am looking for some restaurants in Delhi"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 37,
-            "end": 42,
-            "value": "delhi",
-            "entity": "location"
-          }
-        ],
-        "text": "I am looking for some restaurants in delhi"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 17,
-            "end": 38,
-            "value": "mexican indian fusion",
-            "entity": "cuisine"
-          }
-        ],
-        "text": "I am looking for mexican indian fusion"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 24,
-            "end": 28,
-            "value": "rome",
-            "entity": "location"
-          },
-          {
-            "start": 34,
-            "end": 42,
-            "value": "mid",
-            "entity": "price"
-          },
-          {
-            "start": 60,
-            "end": 67,
-            "value": "british",
-            "entity": "cuisine"
-          },
-          {
-            "start": 77,
-            "end": 81,
-            "value": "4",
-            "entity": "people"
-          }
-        ],
-        "text": "can you book a table in rome in a moderate price range with british food for four people"
-      },
-      {
-        "intent": "restaurant_search",
-        "entities": [
-          {
-            "start": 0,
             "end": 7,
-            "value": "central",
-            "entity": "location"
-          },
-          {
-            "start": 8,
-            "end": 14,
-            "value": "indian",
-            "entity": "cuisine"
+            "entity": "cuisine",
+            "start": 0,
+            "value": "Mexican"
           }
         ],
-        "text": "central indian restaurant"
+        "text": "Mexican"
       },
       {
-        "intent": "goodbye",
-        "text": "bye"
-      },
-      {
-        "intent": "goodbye",
-        "text": "goodbye"
-      },
-      {
-        "intent": "goodbye",
-        "text": "good bye"
-      },
-      {
-        "intent": "goodbye",
-        "text": "stop"
-      },
-      {
-        "intent": "goodbye",
-        "text": "end"
-      },
-      {
-        "intent": "goodbye",
-        "text": "farewell"
-      },
-      {
-        "intent": "goodbye",
-        "text": "Bye bye"
-      },
-      {
-        "intent": "goodbye",
-        "text": "have a good one"
-      },
-      {
-        "intent": "restaurant_search",
+        "intent": "cuisinetype",
         "entities": [
           {
-            "start": 38,
-            "end": 42,
-            "value": "pune",
-            "entity": "location"
+            "end": 21,
+            "entity": "cuisine",
+            "start": 14,
+            "value": "Mexican"
           }
         ],
-        "text": "please help me to find restaurants in pune"
+        "text": "i will prefer Mexican"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cuisine",
+            "start": 12,
+            "value": "Mexican"
+          }
+        ],
+        "text": "i'll prefer Mexican"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cuisine",
+            "start": 15,
+            "value": "Mexican"
+          }
+        ],
+        "text": "i will go with Mexican"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "cuisine",
+            "start": 24,
+            "value": "Mexican"
+          }
+        ],
+        "text": "i would like to go with Mexican"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "cuisine",
+            "start": 12,
+            "value": "Italian"
+          }
+        ],
+        "text": "i'll prefer Italian"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "cuisine",
+            "start": 24,
+            "value": "Italian"
+          }
+        ],
+        "text": "i would like to go with Italian"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "cuisine",
+            "start": 14,
+            "value": "American"
+          }
+        ],
+        "text": "i will prefer American"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "cuisine",
+            "start": 12,
+            "value": "American"
+          }
+        ],
+        "text": "i'll prefer American"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "cuisine",
+            "start": 15,
+            "value": "American"
+          }
+        ],
+        "text": "i will go with American"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "cuisine",
+            "start": 24,
+            "value": "American"
+          }
+        ],
+        "text": "i would like to go with American"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "cuisine",
+            "start": 12,
+            "value": "South Indian"
+          }
+        ],
+        "text": "i'll prefer South Indian"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "cuisine",
+            "start": 15,
+            "value": "South Indian"
+          }
+        ],
+        "text": "i will go with South Indian"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cuisine",
+            "start": 24,
+            "value": "South Indian"
+          }
+        ],
+        "text": "i would like to go with South Indian"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "cuisine",
+            "start": 15,
+            "value": "North Indian"
+          }
+        ],
+        "text": "i will go with North Indian"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "cuisine",
+            "start": 13,
+            "value": "North Indian"
+          }
+        ],
+        "text": "i'll go with North Indian"
+      },
+      {
+        "intent": "cuisinetype",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "cuisine",
+            "start": 24,
+            "value": "North Indian"
+          }
+        ],
+        "text": "i would like to go with North Indian"
       }
     ],
     "regex_features": [

@@ -56,11 +56,11 @@ def transform():
         results=interpreter.parse(query)
         js = '{"message":"In which city are you looking for restaurants?"}'
         print(results) 
-        if('restaurant_search' == results['intent']['name']):
+        if('RestaurantSearch' == results['intent']['name']):
                 print(results['entities'])  
                 for entity in results['entities']:
                         print(entity['entity']) 
-                        if('location' == entity['entity']
+                        if('city' == entity['entity']
                            and (entity['value'] in tierFirst
                                 or entity['value'] in tierSecond)):
                                       js = '{"message":"What kind of cuisine would you prefer?'
@@ -75,7 +75,7 @@ def transform():
                                       js += '"}'
                         else:
                             js = '{"message":"We do not operate in that area yet."}'    
-        elif('cuisine_preference' == results['intent']['name']):
+        elif('cuisinetype' == results['intent']['name']):
                 js = '{"message":"What price range are you looking at?'
                 js += '<ul>'
                 js += '<li>Lesser than Rs. 300</li>'
@@ -83,8 +83,8 @@ def transform():
                 js += '<li>More than 700</li>'
                 js += '</ul>'
                 js += '"}'
-        elif('price_preference' == results['intent']['name']):
-                js = '{"message":"What price range are you looking at?'
+        elif('budget' == results['intent']['name']):
+                js = '{"message":"Here is you search result!!!'
                 js += '<ul>'
                 js += '<li>{restaurant_name_1} in {restaurant_address_1} has been rated {rating}.</li>'
                 js += '<li>{restaurant_name_2} in {restaurant_address_2} has been rated {rating}.</li>'
@@ -94,9 +94,9 @@ def transform():
                 js += '</ul>'
                 js += 'Would you like to know top 10 restaurant on your mail.'
                 js += '"}'
-        elif('email_opt' == results['intent']['name']):
+        elif('sendemail' == results['intent']['name']):
                 js = '{"message":"Please, provide your email id."}'
-        elif('goodbye' == results['intent']['name']):
+        elif('bye' == results['intent']['name']):
                 js = '{"message":"goodbye"}'
         else:
                 js = '{"message":"I am still learning. I do not understand."}'

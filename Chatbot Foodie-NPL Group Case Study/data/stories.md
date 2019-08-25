@@ -1,12 +1,12 @@
 ## Generated Story 255706069223404498
 * greet
     - utter_greet
-* restaurant_search
+* RestaurantSearch
     - utter_ask_location
-* restaurant_search{"location": "delhi"}
+* RestaurantSearch{"location": "delhi"}
     - slot{"location": "delhi"}
     - utter_ask_cuisine
-* restaurant_search{"cuisine": "chinese"}
+* RestaurantSearch{"cuisine": "chinese"}
     - slot{"cuisine": "chinese"}
     - action_restaurant
     - slot{"location": "delhi"}
@@ -16,12 +16,12 @@
 ## Generated Story 1993277579540566202
 * greet
     - utter_greet
-* restaurant_search
+* RestaurantSearch
     - utter_ask_location
-* restaurant_search{"location": "delhi"}
+* RestaurantSearch{"location": "delhi"}
     - slot{"location": "delhi"}
     - utter_ask_cuisine
-* restaurant_search{"cuisine": "North Indian"}
+* RestaurantSearch{"cuisine": "North Indian"}
     - slot{"cuisine": "North Indian"}
     - action_restaurant
     - utter_goodbye
@@ -29,12 +29,12 @@
 ## Generated Story 3320800183399695936
 * greet
     - utter_greet
-* restaurant_search
+* RestaurantSearch
     - utter_ask_location
-* restaurant_search{"location": "italy"}
+* RestaurantSearch{"location": "italy"}
     - slot{"location": "italy"}
 	- utter_ask_cuisine
-* restaurant_search{"cuisine": "chinese"}
+* RestaurantSearch{"cuisine": "chinese"}
     - slot{"cuisine": "chinese"}
     - action_restaurant
 * goodbye
@@ -43,12 +43,12 @@
 ## Generated Story -4639179087166749998
 * greet
     - utter_greet
-* restaurant_search
+* RestaurantSearch
     - utter_ask_location
-* restaurant_search{"location": "delhi"}
+* RestaurantSearch{"location": "delhi"}
     - slot{"location": "delhi"}
     - utter_ask_cuisine
-* restaurant_search{"cuisine": "chinese"}
+* RestaurantSearch{"cuisine": "chinese"}
     - slot{"cuisine": "chinese"}
     - action_restaurant
     - slot{"location": "delhi"}
@@ -58,10 +58,10 @@
 ## Generated Story 4963448062290237512
 * greet
     - utter_greet
-* restaurant_search{"location": "delhi"}
+* RestaurantSearch{"location": "delhi"}
     - slot{"location": "delhi"}
     - utter_ask_cuisine
-* restaurant_search{"cuisine": "chinese"}
+* RestaurantSearch{"cuisine": "chinese"}
     - slot{"cuisine": "chinese"}
     - action_restaurant
 * affirm
