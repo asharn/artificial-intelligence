@@ -101,7 +101,7 @@ def transform():
                 js = '{"message":"goodbye"}'
         else:
                 js = '{"message":"I am still learning. I do not understand."}'
-        #print(js) 
+        #print(js) ``
         resp = Response(js, status=200, mimetype='application/json')
         return resp
 
