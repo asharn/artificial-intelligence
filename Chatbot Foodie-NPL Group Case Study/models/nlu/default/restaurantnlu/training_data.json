@@ -327,11 +327,23 @@
           {
             "start": 3,
             "end": 8,
-            "value": "Delhi",
+            "value": "delhi",
             "entity": "location"
           }
         ],
         "text": "In Delhi"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "Delhi"
       },
       {
         "intent": "restaurant_search",

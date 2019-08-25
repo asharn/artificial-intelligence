@@ -54,7 +54,7 @@ def transform():
     if request.headers['Content-Type'] == 'application/json':   
         query = request.json.get("user-utter")
         results=interpreter.parse(query)
-        js = '{"message":"We do not operate in that area yet"}'
+        js = '{"message":"In which city are you looking for restaurants?"}'
         print(results) 
         if('restaurant_search' == results['intent']['name']):
                 print(results['entities'])  
@@ -72,8 +72,34 @@ def transform():
                                       js += '<li>South Indian</li>'
                                       js += '<li>North Indian</li>'
                                       js += '</ul>'  
-                                      js += '"}'  
-        
+                                      js += '"}'
+                        else:
+                            js = '{"message":"We do not operate in that area yet."}'    
+        elif('cuisine_preference' == results['intent']['name']):
+                js = '{"message":"What price range are you looking at?'
+                js += '<ul>'
+                js += '<li>Lesser than Rs. 300</li>'
+                js += '<li>Rs. 300 to 700</li>'
+                js += '<li>More than 700</li>'
+                js += '</ul>'
+                js += '"}'
+        elif('price_preference' == results['intent']['name']):
+                js = '{"message":"What price range are you looking at?'
+                js += '<ul>'
+                js += '<li>{restaurant_name_1} in {restaurant_address_1} has been rated {rating}.</li>'
+                js += '<li>{restaurant_name_2} in {restaurant_address_2} has been rated {rating}.</li>'
+                js += '<li>{restaurant_name_3} in {restaurant_address_3} has been rated {rating}.</li>'
+                js += '<li>{restaurant_name_4} in {restaurant_address_4} has been rated {rating}.</li>'
+                js += '<li>{restaurant_name_5} in {restaurant_address_5} has been rated {rating}.</li>'
+                js += '</ul>'
+                js += 'Would you like to know top 10 restaurant on your mail.'
+                js += '"}'
+        elif('email_opt' == results['intent']['name']):
+                js = '{"message":"Please, provide your email id."}'
+        elif('goodbye' == results['intent']['name']):
+                js = '{"message":"goodbye"}'
+        else:
+                js = '{"message":"I am still learning. I do not understand."}'
         #print(js) 
         resp = Response(js, status=200, mimetype='application/json')
         return resp
