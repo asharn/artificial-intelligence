@@ -4,9 +4,9 @@ slots:
   cuisine:
     type: text
   email:
-    type:text
+    type: text
   price:
-    type:text
+    type: text
   city_match:
     type: categorical
     values:
@@ -44,7 +44,7 @@ templates:
     - "happy eating bye bye"
   utter_default:
     - "how can I help you?"
-  utter_ask_cuisine: 
+  utter_ask_cuisine:
     - text: "what kind of cuisine would you like?"
       buttons:
       - title: "Chinese"
@@ -65,18 +65,18 @@ templates:
     - "In what location?"
   utter_ask_budget:
     - text: "What price range are you looking at?"
-    buttons:
-    - title: "Lesser than Rs. 300"
-    payload: "cheaper"
-    - title: "Rs. 300 to 700"
-    payload: "moderate"
-    - title: "More than 700"
-    payload: "costly"
+      buttons:
+      - title: "Lesser than Rs. 300"
+        payload: "cheaper"
+      - title: "Rs. 300 to 700"
+        payload: "moderate"
+      - title: "More than 700"
+        payload: "costly"
   utter_sorry_dont_operate:
     - "Sorry, We do not operate in that area yet. Could you please specify some other city ? \n"
     
   utter_location_not_found:
-    - "Sorry, didn’t find any such city. Could you please check the city name ? \n"
+    - "Sorry, didnï¿½t find any such city. Could you please check the city name ? \n"
   
   utter_searching:
     - "Ok, let me find some good rating restaurants for your budget range... \n"
@@ -107,8 +107,8 @@ actions:
 - utter_ask_budget
 - utter_searching
 - utter_location_not_found
-- action_restaurant
-- action_check_location
-- action_restart
-- action_send_email
+#- action_restaurant
+#- action_check_location
+#- action_restart
+#- action_send_email
 - actions.ActionSearchRestaurants

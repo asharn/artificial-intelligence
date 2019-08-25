@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 
 def run_restaurant_online(input_channel, interpreter,
-                          domain_file="dialogue/domain.yml",
+                          domain_file="restaurant_domain.yml",
                           training_data_file='data/stories.md'):
     agent = Agent(domain_file,
                   policies=[MemoizationPolicy(), KerasPolicy()],
