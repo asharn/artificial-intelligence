@@ -56,6 +56,7 @@ def transform():
         results=interpreter.parse(query)
         js = '{"message":"In which city are you looking for restaurants?"}'
         print(results) 
+        #This condition goes to story.md file to interract with chat bot.
         if('RestaurantSearch' == results['intent']['name']):
                 print(results['entities'])  
                 for entity in results['entities']:
