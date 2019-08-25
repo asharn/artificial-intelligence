@@ -1,4 +1,4 @@
-from rasa_core.channels import InputChannel
+from rasa_core.channels import HttpInputChannel
 from rasa_core.agent import Agent
 from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_slack_connector import SlackInput
@@ -12,4 +12,4 @@ input_channel = SlackInput('xoxp-730844475953-725780115683-739412025158-d93e4a27
 							'LhTk3o9fLiYVu7KoIvaMkGqo', # slack verification token
 							True)
 
-agent.handle_channel(InputChannel(5004, '/', input_channel))
+agent.handle_channel(HttpInputChannel(5004, '/', input_channel))

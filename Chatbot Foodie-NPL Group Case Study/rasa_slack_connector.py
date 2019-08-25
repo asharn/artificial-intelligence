@@ -9,7 +9,7 @@ from builtins import str
 from flask import Blueprint, request, jsonify
 
 from rasa_core.channels.channel import UserMessage, OutputChannel
-from rasa_core.channels import InputChannel
+from rasa_core.channels.rest import HttpInputComponent
 
 logger = logging.getLogger(__name__)
 
@@ -31,7 +31,7 @@ class SlackBot(OutputChannel):
 
 
 
-class SlackInput(InputChannel):
+class SlackInput(HttpInputComponent):
 	def __init__(self, slack_dev_token, slack_verification_token, slack_client, debug_mode):
 		self.slack_dev_token = slack_dev_token
 		self.debug_mode = debug_mode
@@ -64,8 +64,3 @@ class SlackInput(InputChannel):
 			return Response(), 200
 			
 		return slack_webhook
-				
-		
-		
-		
-		
