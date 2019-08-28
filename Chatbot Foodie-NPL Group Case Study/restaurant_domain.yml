@@ -1,5 +1,5 @@
 slots:
-  city:
+  location:
     type: text
   cuisine:
     type: text
@@ -7,7 +7,7 @@ slots:
     type: text
   price:
     type: text
-  city_match:
+  location_match:
     type: categorical
     values:
     - zero
@@ -16,7 +16,7 @@ slots:
     type: text
 
 entities:
-- city
+- location
 - cuisine
 - price
 - email
@@ -27,7 +27,7 @@ intents:
  - negative
  - bye 
  - RestaurantSearch
- - sendemail
+ - SendMail
  - budget
  - cuisinetype
 

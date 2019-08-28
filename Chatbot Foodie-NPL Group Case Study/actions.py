@@ -6,7 +6,11 @@ from rasa_core.actions.action import Action
 from rasa_core.events import SlotSet
 import zomatopy
 import json
+import logging
 
+LOG_FILENAME = 'example.log'
+logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 class ActionSearchRestaurants(Action):
     def name(self):
@@ -16,15 +20,15 @@ class ActionSearchRestaurants(Action):
         config = {"user_key": "6ce88a5ec1419e335afa1c7f92f4b739"}
         zomato = zomatopy.initialize_app(config)
         loc = tracker.get_slot('location')
-        print(loc)
+        logger.info(loc)
         cuisine = tracker.get_slot('cuisine')
-        print(cuisine)
+        logger.info(cuisine)
         location_detail = zomato.get_location(loc, 1)
         d1 = json.loads(location_detail)
         lat = d1["location_suggestions"][0]["latitude"]
-        print(lat)
+        logger.info(lat)
         lon = d1["location_suggestions"][0]["longitude"]
-        print(lon)
+        logger.info(lon)
         cuisines_dict = {
             'Mexican': 73,
             'Chinese': 25,

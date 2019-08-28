@@ -13,6 +13,8 @@ from rasa_core.policies.memoization import MemoizationPolicy
 from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.featurizers import (MaxHistoryTrackerFeaturizer, BinarySingleStateFeaturizer)
 
+LOG_FILENAME = 'app.log'
+logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 def train_dialogue(domain_file = 'restaurant_domain.yml',
