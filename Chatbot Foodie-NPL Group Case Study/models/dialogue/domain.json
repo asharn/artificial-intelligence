@@ -35,6 +35,7 @@
     "prev_utter_ask_budget",
     "prev_utter_searching",
     "prev_utter_location_not_found",
+    "prev_action_send_mail",
     "prev_action_restaurant"
   ]
 }

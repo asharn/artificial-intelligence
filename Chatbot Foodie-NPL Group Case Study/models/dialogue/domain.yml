@@ -13,6 +13,7 @@ action_names:
 - utter_ask_budget
 - utter_searching
 - utter_location_not_found
+- action_send_mail
 - action_restaurant
 actions:
 - utter_greet
@@ -28,6 +29,7 @@ actions:
 - utter_ask_budget
 - utter_searching
 - utter_location_not_found
+- actions.ActionSendMail
 - actions.ActionSearchRestaurants
 config:
   store_entities_as_slots: true

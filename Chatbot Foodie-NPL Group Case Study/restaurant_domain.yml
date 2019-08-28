@@ -109,6 +109,6 @@ actions:
 - utter_location_not_found
 #- action_restaurant
 #- action_check_location
-#- action_restart
-#- action_send_email
+#- action_send_mail
+- actions.ActionSendMail
 - actions.ActionSearchRestaurants
