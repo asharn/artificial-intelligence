@@ -2,14 +2,13 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "location",
+        "price",
+        "email",
+        "city",
         "cuisine"
       ]
     },
-    "utter_goodbye": {
-      "slots": []
-    },
-    "action_restaurant": {
+    "action_send_mail": {
       "slots": [
         "location"
       ]

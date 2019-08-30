@@ -1734,403 +1734,407 @@
         "text": "talk to you soon chau"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "right agreed"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "that is correct agreed"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "sounds good"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "correct"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "right right thank you"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "yep that is fine correct"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "im ok with that that is good yep"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "yep yes sir thank you"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "agreed im ok with that thanks"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "yes sir that is what i want right"
       },
       {
-        "intent": "affirmative",
-        "text": "affirmative you understood me yep"
+        "intent": "affirm",
+        "text": "affirm you understood me yep"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "correct you understood me"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "yep agreed thanks"
       },
       {
-        "intent": "affirmative",
-        "text": "im ok with that affirmative"
+        "intent": "affirm",
+        "text": "im ok with that affirm"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "right its fine correct"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "agreed that is correct im ok with that"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "sounds good that is correct im ok with that"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "yes you understood me yes sir"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "yep correct"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "correct good right"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "yep that is what i want yes sir"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "right i want that yes"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "yes"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "yes sir that is what i want yes sir"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "right im ok with that thank you"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "yep sounds good"
       },
       {
-        "intent": "affirmative",
-        "text": "you understood me affirmative"
+        "intent": "affirm",
+        "text": "you understood me affirm"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "agreed"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "correct that is right im ok with that"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "sounds good sounds good thank you"
       },
       {
-        "intent": "affirmative",
-        "text": "yep that is good affirmative"
+        "intent": "affirm",
+        "text": "yep that is good affirm"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "im ok with that good sounds good"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "agreed that is what i want correct"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "im ok with that that is correct right"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "that is fine im ok with that"
       },
       {
-        "intent": "affirmative",
-        "text": "affirmative its fine"
+        "intent": "affirm",
+        "text": "affirm its fine"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "yep that is fine im ok with that"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "agreed you understood me right"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "right good yep"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "correct correct"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "good sounds good"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "yes yes sir thanks"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "yep correct thanks"
       },
       {
-        "intent": "affirmative",
-        "text": "yep that is right affirmative"
+        "intent": "affirm",
+        "text": "yep that is right affirm"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "right that is fine right"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "agreed that is what i want right"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "correct i want that yes sir"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "you understood me yes"
       },
       {
-        "intent": "affirmative",
-        "text": "yes sir that is fine affirmative"
+        "intent": "affirm",
+        "text": "yes sir that is fine affirm"
       },
       {
-        "intent": "affirmative",
+        "intent": "affirm",
         "text": "right that is fine"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "pls don't do that that's not what i want"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "pls that's not right that's not what i want"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "pls not really i don't want that"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "plz incorrect dont mean that"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "don't do that"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "that's not what i want"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "not really please i don't want that"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "nope plz its not correct"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "plz incorrect"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "pls incorrect i don't want that"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "please not really that's not correct"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "incorrect pls that is wrong"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "that's not right plz i don't want that"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "incorrect please dont mean that"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "please that's not right its not correct"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "incorrect please"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "please nope i don't want that"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "no that's not correct"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "pls that's not right dont mean that"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "incorrect it's not good"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "incorrect"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "please incorrect that's not correct"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "not really its not correct"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "nope plz its not ok"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "incorrect pls its not correct"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "incorrect that's wrong"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "not really didnt meant that"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "pls that's not right"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "that's not right please its not ok"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "pls no that's not correct"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "incorrect please that is wrong"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "not really that's not what i want"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "don't do that pls its not ok"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "don't do that pls that is wrong"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "nope pls it's not good"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "please that's not right it's not good"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "please that's not right that's not what i want"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "pls no its not ok"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "please incorrect it's not good"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "don't do that that's not what i want"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "incorrect i don't want that"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "don't do that plz that's wrong"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "not really pls i don't want that"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "no its not ok"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
         "text": "pls no it's not good"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "not really that is wrong"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "pls nope it's not good"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "not really it's not good"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "pls no that's not what i want"
       },
       {
-        "intent": "negative",
+        "intent": "deny",
         "text": "incorrect pls"
       },
       {
@@ -3457,7 +3461,7 @@
             "value": "700"
           }
         ],
-        "text": "300  to 700"
+        "text": "300 to 700"
       },
       {
         "intent": "budget",
@@ -3493,7 +3497,7 @@
             "value": "700"
           }
         ],
-        "text": "in between 300  to 700"
+        "text": "in between 300 to 700"
       },
       {
         "intent": "budget",
@@ -3511,7 +3515,7 @@
             "value": "700"
           }
         ],
-        "text": "between 300  to 700"
+        "text": "between 300 to 700"
       },
       {
         "intent": "budget",
@@ -4270,6 +4274,15 @@
         "synonyms": [
           "veggie",
           "vegg"
+        ]
+      },
+      {
+        "value": "New Delhi",
+        "synonyms": [
+          "Delhi",
+          "new delhi",
+          "delhi",
+          "New delhi"
         ]
       }
     ]

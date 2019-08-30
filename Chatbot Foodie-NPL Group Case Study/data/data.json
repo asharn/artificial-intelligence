@@ -25,6 +25,15 @@
                     "veggie",
                     "vegg"
                 ]
+            },
+            {
+                "value": "New Delhi",
+                "synonyms": [
+                    "Delhi",
+                    "new delhi",
+                    "delhi",
+                    "New delhi"
+                ]
             }
         ],
         "common_examples": [
@@ -1873,502 +1882,507 @@
             },
             {
                 "text": "right agreed",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "that is correct agreed",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "sounds good",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "correct",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "right right thank you",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "yep that is fine correct",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "im ok with that that is good yep",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "yep yes sir thank you",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "agreed im ok with that thanks",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "yes sir that is what i want right",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
-                "text": "affirmative you understood me yep",
-                "intent": "affirmative",
+                "text": "affirm you understood me yep",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "correct you understood me",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "yep agreed thanks",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
-                "text": "im ok with that affirmative",
-                "intent": "affirmative",
+                "text": "im ok with that affirm",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "right its fine correct",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "agreed that is correct im ok with that",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "sounds good that is correct im ok with that",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "yes you understood me yes sir",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "yep correct",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "correct good right",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "yep that is what i want yes sir",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "right i want that yes",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "yes",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "yes sir that is what i want yes sir",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "right im ok with that thank you",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "yep sounds good",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
-                "text": "you understood me affirmative",
-                "intent": "affirmative",
+                "text": "you understood me affirm",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "agreed",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "correct that is right im ok with that",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "sounds good sounds good thank you",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
-                "text": "yep that is good affirmative",
-                "intent": "affirmative",
+                "text": "yep that is good affirm",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "im ok with that good sounds good",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "agreed that is what i want correct",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "im ok with that that is correct right",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "that is fine im ok with that",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
-                "text": "affirmative its fine",
-                "intent": "affirmative",
+                "text": "affirm its fine",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "yep that is fine im ok with that",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "agreed you understood me right",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "right good yep",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "correct correct",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "good sounds good",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "yes yes sir thanks",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "yep correct thanks",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
-                "text": "yep that is right affirmative",
-                "intent": "affirmative",
+                "text": "yep that is right affirm",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "right that is fine right",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "agreed that is what i want right",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "correct i want that yes sir",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "you understood me yes",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
-                "text": "yes sir that is fine affirmative",
-                "intent": "affirmative",
+                "text": "yes sir that is fine affirm",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "right that is fine",
-                "intent": "affirmative",
+                "intent": "affirm",
                 "entities": []
             },
             {
                 "text": "pls don't do that that's not what i want",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "pls that's not right that's not what i want",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "pls not really i don't want that",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "plz incorrect dont mean that",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "don't do that",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "that's not what i want",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "not really please i don't want that",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "nope plz its not correct",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "plz incorrect",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "pls incorrect i don't want that",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "please not really that's not correct",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "incorrect pls that is wrong",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "that's not right plz i don't want that",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "incorrect please dont mean that",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "please that's not right its not correct",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "incorrect please",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "please nope i don't want that",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "no that's not correct",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "pls that's not right dont mean that",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "incorrect it's not good",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "incorrect",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "please incorrect that's not correct",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "not really its not correct",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "nope plz its not ok",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "incorrect pls its not correct",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "incorrect that's wrong",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "not really didnt meant that",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "pls that's not right",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "that's not right please its not ok",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "pls no that's not correct",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "incorrect please that is wrong",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "not really that's not what i want",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "don't do that pls its not ok",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "don't do that pls that is wrong",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "nope pls it's not good",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "please that's not right it's not good",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "please that's not right that's not what i want",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "pls no its not ok",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "please incorrect it's not good",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "don't do that that's not what i want",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "incorrect i don't want that",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "don't do that plz that's wrong",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "not really pls i don't want that",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "no its not ok",
-                "intent": "negative",
+                "intent": "deny",
+                "entities": []
+            },
+            {
+                "text": "no",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "pls no it's not good",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "not really that is wrong",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "pls nope it's not good",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "not really it's not good",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "pls no that's not what i want",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
                 "text": "incorrect pls",
-                "intent": "negative",
+                "intent": "deny",
                 "entities": []
             },
             {
@@ -3680,7 +3694,7 @@
                 ]
             },
             {
-                "text": "300  to 700",
+                "text": "300 to 700",
                 "intent": "budget",
                 "entities": [
                     {
@@ -3716,7 +3730,7 @@
                 ]
             },
             {
-                "text": "in between 300  to 700",
+                "text": "in between 300 to 700",
                 "intent": "budget",
                 "entities": [
                     {
@@ -3734,7 +3748,7 @@
                 ]
             },
             {
-                "text": "between 300  to 700",
+                "text": "between 300 to 700",
                 "intent": "budget",
                 "entities": [
                     {

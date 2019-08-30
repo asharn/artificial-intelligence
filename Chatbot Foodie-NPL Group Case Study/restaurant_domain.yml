@@ -1,5 +1,5 @@
 slots:
-  location:
+  city:
     type: text
   cuisine:
     type: text
@@ -7,24 +7,22 @@ slots:
     type: text
   price:
     type: text
-  location_match:
+  city_match:
     type: categorical
     values:
-    - zero
-    - one  
-  email_body:
-    type: text
+    - True
+    - False
 
 entities:
-- location
+- city
 - cuisine
 - price
 - email
 
 intents:
  - greet
- - affirmative
- - negative
+ - affirm
+ - deny
  - bye 
  - RestaurantSearch
  - SendMail
@@ -62,7 +60,7 @@ templates:
   utter_ask_howcanhelp:
     - "how can I help you?"
   utter_ask_location:
-    - "In what location?"
+    - "In which city are you looking for restaurants?"
   utter_ask_budget:
     - text: "What price range are you looking at?"
       buttons:
@@ -74,24 +72,18 @@ templates:
         payload: "costly"
   utter_sorry_dont_operate:
     - "Sorry, We do not operate in that area yet. Could you please specify some other city ? \n"
-    
   utter_location_not_found:
-    - "Sorry, didn�t find any such city. Could you please check the city name ? \n"
-  
+    - "Sorry, didn't find any such city. Could you please check the city name ? \n"
   utter_searching:
     - "Ok, let me find some good rating restaurants for your budget range... \n"
-  
   utter_ask_for_email_to_send:
     - "Do you want the details of the top 10 restaurants on email? \n"
-  
   utter_ask_email_address:
     - "To what email id should I send it to ? \n"
-  
   utter_email_sent:
-    - "Sent. Bon Appetit!"
-  
+    - "Email Sent!"
   utter_no_email_sent:
-    - "Okay. Bon Appetit!"
+    - "Okay. Thanks!"
 
 actions:
 - utter_greet
@@ -112,3 +104,4 @@ actions:
 #- action_send_mail
 - actions.ActionSendMail
 - actions.ActionSearchRestaurants
+- actions.ActionCheckServingCity

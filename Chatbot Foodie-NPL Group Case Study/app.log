@@ -1,0 +1,111 @@
+WARNING:rasa_core.agent:Passing a file name to `agent.train(...)` is deprecated. Rather load the data with `data = agent.load_data(file_name)` and pass it to `agent.train(data)`.
+WARNING:rasa_core.training.dsl:Found unknown intent 'sendemail' on line 20. Please, make sure that all intents are listed in your domain yaml.
+DEBUG:rasa_core.training.generator:Generated trackers will be deduplicated based on their unique last 5 states.
+DEBUG:rasa_core.training.generator:Number of augmentation rounds is 3
+DEBUG:rasa_core.training.generator:Starting data generation round 0 ... (with 1 trackers)
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+DEBUG:rasa_core.training.generator:Finished phase (1 training samples found).
+DEBUG:rasa_core.training.generator:Data generation rounds finished.
+DEBUG:rasa_core.training.generator:Found 0 unused checkpoints
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+DEBUG:rasa_core.training.generator:Starting augmentation round 0 ... (with 1 trackers)
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+DEBUG:rasa_core.training.generator:Finished phase (2 training samples found).
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+DEBUG:rasa_core.training.generator:Starting augmentation round 1 ... (with 2 trackers)
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+DEBUG:rasa_core.training.generator:Finished phase (3 training samples found).
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+DEBUG:rasa_core.training.generator:Starting augmentation round 2 ... (with 3 trackers)
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+DEBUG:rasa_core.training.generator:Finished phase (4 training samples found).
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+ERROR:rasa_core.trackers:Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+DEBUG:rasa_core.training.generator:Found 4 training trackers.
+DEBUG:rasa_core.agent:Agent trainer got kwargs: {'epochs': 300, 'batch_size': 50, 'validation_split': 0.2, 'augmentation_factor': 50}
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+INFO:rasa_core.featurizers:Created 39 action examples.
+INFO:rasa_core.policies.memoization:Memorized 39 unique action examples.
+INFO:rasa_core.featurizers:Creating states and action examples from collected trackers (by MaxHistoryTrackerFeaturizer)...
+INFO:rasa_core.featurizers:Created 39 action examples.
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.featurizers:Feature 'intent_sendemail' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+DEBUG:rasa_core.policies.keras_policy:None
+INFO:rasa_core.policies.keras_policy:Fitting model with 39 total samples and a validation split of 0.2
+DEBUG:rasa_core.policies.policy:Parameters ignored by `model.fit(...)`: {'augmentation_factor': 50}

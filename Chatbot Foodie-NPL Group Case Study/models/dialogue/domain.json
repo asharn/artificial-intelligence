@@ -1,23 +1,22 @@
 {
   "states": [
     "intent_greet",
-    "intent_affirmative",
-    "intent_negative",
+    "intent_affirm",
+    "intent_deny",
     "intent_bye",
     "intent_RestaurantSearch",
     "intent_SendMail",
     "intent_budget",
     "intent_cuisinetype",
-    "entity_location",
+    "entity_city",
     "entity_cuisine",
     "entity_price",
     "entity_email",
+    "slot_city_0",
+    "slot_city_match_0",
+    "slot_city_match_1",
     "slot_cuisine_0",
     "slot_email_0",
-    "slot_email_body_0",
-    "slot_location_0",
-    "slot_location_match_0",
-    "slot_location_match_1",
     "slot_price_0",
     "prev_action_listen",
     "prev_action_restart",
@@ -36,6 +35,7 @@
     "prev_utter_searching",
     "prev_utter_location_not_found",
     "prev_action_send_mail",
-    "prev_action_restaurant"
+    "prev_action_restaurant",
+    "prev_action_city_match"
   ]
 }

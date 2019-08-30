@@ -15,6 +15,7 @@ action_names:
 - utter_location_not_found
 - action_send_mail
 - action_restaurant
+- action_city_match
 actions:
 - utter_greet
 - utter_goodbye
@@ -31,41 +32,39 @@ actions:
 - utter_location_not_found
 - actions.ActionSendMail
 - actions.ActionSearchRestaurants
+- actions.ActionCheckServingCity
 config:
   store_entities_as_slots: true
 entities:
-- location
+- city
 - cuisine
 - price
 - email
 intents:
 - greet
-- affirmative
-- negative
+- affirm
+- deny
 - bye
 - RestaurantSearch
 - SendMail
 - budget
 - cuisinetype
 slots:
+  city:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  city_match:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - 'true'
+    - 'false'
   cuisine:
     initial_value: null
     type: rasa_core.slots.TextSlot
   email:
     initial_value: null
     type: rasa_core.slots.TextSlot
-  email_body:
-    initial_value: null
-    type: rasa_core.slots.TextSlot
-  location:
-    initial_value: null
-    type: rasa_core.slots.TextSlot
-  location_match:
-    initial_value: null
-    type: rasa_core.slots.CategoricalSlot
-    values:
-    - zero
-    - one
   price:
     initial_value: null
     type: rasa_core.slots.TextSlot
@@ -101,11 +100,11 @@ templates:
   utter_ask_howcanhelp:
   - text: how can I help you?
   utter_ask_location:
-  - text: In what location?
+  - text: In which city are you looking for restaurants?
   utter_default:
   - text: how can I help you?
   utter_email_sent:
-  - text: Sent. Bon Appetit!
+  - text: Email Sent!
   utter_goodbye:
   - text: goodbye :(
   - text: Bye-bye
@@ -116,10 +115,10 @@ templates:
   - text: Hi, How can I help you!
   - text: Hey, How is it going. How May I help you Today
   utter_location_not_found:
-  - text: "Sorry, didn�t find any such city. Could you please check the city name\
+  - text: "Sorry, didn't find any such city. Could you please check the city name\
       \ ? \n"
   utter_no_email_sent:
-  - text: Okay. Bon Appetit!
+  - text: Okay. Thanks!
   utter_searching:
   - text: "Ok, let me find some good rating restaurants for your budget range... \n"
   utter_sorry_dont_operate:
