@@ -2138,7 +2138,7 @@
         "text": "incorrect pls"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 25,
@@ -2150,7 +2150,7 @@
         "text": "send to emailid abc@g.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 26,
@@ -2162,7 +2162,7 @@
         "text": "plz to email xyz@yahoo.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 24,
@@ -2174,7 +2174,7 @@
         "text": "plz to emailid abc@g.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 16,
@@ -2186,7 +2186,7 @@
         "text": "at abc@gmail.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 25,
@@ -2198,7 +2198,7 @@
         "text": "please send xyz@yahoo.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 31,
@@ -2210,7 +2210,7 @@
         "text": "send to my emailid abc@live.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 20,
@@ -2222,7 +2222,7 @@
         "text": "plz to xyz@yahoo.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 22,
@@ -2234,7 +2234,7 @@
         "text": "to email xyz@yahoo.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 19,
@@ -2246,7 +2246,7 @@
         "text": "pls to abc@live.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 27,
@@ -2258,7 +2258,7 @@
         "text": "to my emailid abc@gmail.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 23,
@@ -2270,7 +2270,7 @@
         "text": "send to email abc@g.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 19,
@@ -2282,7 +2282,7 @@
         "text": "plz me at abc@g.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 18,
@@ -2294,7 +2294,7 @@
         "text": "send xyz@yahoo.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 21,
@@ -2306,7 +2306,7 @@
         "text": "to my email abc@g.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 22,
@@ -2318,7 +2318,7 @@
         "text": "pls send xyz@yahoo.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 31,
@@ -2330,7 +2330,7 @@
         "text": "please send me at xyz@yahoo.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 27,
@@ -2342,7 +2342,7 @@
         "text": "send to email abc@gmail.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 24,
@@ -2354,7 +2354,7 @@
         "text": "plz send me at abc@g.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 33,
@@ -2366,7 +2366,7 @@
         "text": "plz send to emailid xyz@yahoo.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 24,
@@ -2378,7 +2378,7 @@
         "text": "to my email abc@live.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 30,
@@ -2390,7 +2390,7 @@
         "text": "send to my email abc@gmail.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 25,
@@ -2402,7 +2402,7 @@
         "text": "pls to email abc@live.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 24,
@@ -2414,7 +2414,7 @@
         "text": "send me to xyz@yahoo.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 15,
@@ -2426,7 +2426,7 @@
         "text": "to abc@live.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 18,
@@ -2438,7 +2438,7 @@
         "text": "to email abc@g.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 28,
@@ -2450,7 +2450,7 @@
         "text": "pls send me at abc@gmail.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 25,
@@ -2462,7 +2462,7 @@
         "text": "send to emailid abc@g.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 23,
@@ -2474,7 +2474,7 @@
         "text": "pls me at abc@gmail.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 28,
@@ -2486,7 +2486,7 @@
         "text": "please send to abc@gmail.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 25,
@@ -2498,7 +2498,7 @@
         "text": "to my email xyz@yahoo.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 20,
@@ -2510,7 +2510,7 @@
         "text": "send me to abc@g.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 21,
@@ -2522,7 +2522,7 @@
         "text": "to email abc@live.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 21,
@@ -2534,7 +2534,7 @@
         "text": "to email abc@live.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 21,
@@ -2546,7 +2546,7 @@
         "text": "send at xyz@yahoo.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 21,
@@ -2558,7 +2558,7 @@
         "text": "plz send abc@live.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 12,
@@ -2570,7 +2570,7 @@
         "text": "abc@live.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 33,
@@ -2582,7 +2582,7 @@
         "text": "please send to email abc@live.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 25,
@@ -2594,7 +2594,7 @@
         "text": "to my email abc@gmail.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 31,
@@ -2606,7 +2606,7 @@
         "text": "please send me to xyz@yahoo.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 28,
@@ -2618,7 +2618,7 @@
         "text": "pls to emailid xyz@yahoo.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 33,
@@ -2630,7 +2630,7 @@
         "text": "please to my emailid abc@live.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 18,
@@ -2642,7 +2642,7 @@
         "text": "me at abc@live.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 15,
@@ -2654,7 +2654,7 @@
         "text": "to abc@live.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 29,
@@ -2666,7 +2666,7 @@
         "text": "send to my email abc@live.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 22,
@@ -2678,7 +2678,7 @@
         "text": "please at abc@live.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 32,
@@ -2690,7 +2690,7 @@
         "text": "please send to emailid abc@g.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 21,
@@ -2702,7 +2702,7 @@
         "text": "send to xyz@yahoo.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 32,
@@ -2714,7 +2714,7 @@
         "text": "send to my emailid xyz@yahoo.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 27,
@@ -2726,7 +2726,7 @@
         "text": "to my emailid xyz@yahoo.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 21,
@@ -2738,7 +2738,7 @@
         "text": "send to abc@gmail.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 26,
@@ -2750,7 +2750,7 @@
         "text": "pls to email abc@gmail.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 35,
@@ -2762,7 +2762,7 @@
         "text": "please send to emailid abc@live.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 32,
@@ -2774,7 +2774,7 @@
         "text": "send to my emailid abc@gmail.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 24,
@@ -2786,7 +2786,7 @@
         "text": "pls to emailid abc@g.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 20,
@@ -2798,7 +2798,7 @@
         "text": "send to abc@live.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 19,
@@ -2810,7 +2810,7 @@
         "text": "pls me to abc@g.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 21,
@@ -2822,7 +2822,7 @@
         "text": "send at abc@gmail.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 23,
@@ -2834,7 +2834,7 @@
         "text": "to my emailid abc@g.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 18,
@@ -2846,7 +2846,7 @@
         "text": "send abc@gmail.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 25,
@@ -2858,7 +2858,7 @@
         "text": "plz to my email abc@g.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 15,
@@ -2870,7 +2870,7 @@
         "text": "to abc@live.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 24,
@@ -2882,7 +2882,7 @@
         "text": "pls send to abc@live.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 31,
@@ -2894,7 +2894,7 @@
         "text": "pls to my emailid xyz@yahoo.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 30,
@@ -2906,7 +2906,7 @@
         "text": "plz to my emailid abc@live.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 16,
@@ -2918,7 +2918,7 @@
         "text": "plz to abc@g.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 12,
@@ -2930,7 +2930,7 @@
         "text": "abc@live.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 26,
@@ -2942,7 +2942,7 @@
         "text": "pls to email abc@gmail.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 15,
@@ -2954,7 +2954,7 @@
         "text": "at abc@live.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 36,
@@ -2966,7 +2966,7 @@
         "text": "plz send to my emailid abc@gmail.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 16,
@@ -2978,7 +2978,7 @@
         "text": "at abc@gmail.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 27,
@@ -2990,7 +2990,7 @@
         "text": "please send at abc@live.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 24,
@@ -3002,7 +3002,7 @@
         "text": "send me to abc@gmail.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 37,
@@ -3014,7 +3014,7 @@
         "text": "please send to my email xyz@yahoo.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 12,
@@ -3026,7 +3026,7 @@
         "text": "to abc@g.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 28,
@@ -3038,7 +3038,7 @@
         "text": "plz send me to abc@gmail.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 24,
@@ -3050,7 +3050,7 @@
         "text": "pls send at abc@live.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 16,
@@ -3062,7 +3062,7 @@
         "text": "pls abc@live.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 18,
@@ -3074,7 +3074,7 @@
         "text": "me to abc@live.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 17,
@@ -3086,7 +3086,7 @@
         "text": "send to abc@g.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 17,
@@ -3098,7 +3098,7 @@
         "text": "send to abc@g.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 16,
@@ -3110,7 +3110,7 @@
         "text": "to abc@gmail.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 16,
@@ -3122,7 +3122,7 @@
         "text": "to xyz@yahoo.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 25,
@@ -3134,7 +3134,7 @@
         "text": "to my email xyz@yahoo.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 35,
@@ -3146,7 +3146,7 @@
         "text": "please send to emailid abc@live.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 28,
@@ -3158,7 +3158,7 @@
         "text": "please send at xyz@yahoo.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 23,
@@ -3170,7 +3170,7 @@
         "text": "plz me at abc@gmail.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 12,
@@ -3182,7 +3182,7 @@
         "text": "at abc@g.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 20,
@@ -3194,7 +3194,7 @@
         "text": "send me at abc@g.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 18,
@@ -3206,7 +3206,7 @@
         "text": "send abc@gmail.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 21,
@@ -3218,7 +3218,7 @@
         "text": "send at xyz@yahoo.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 20,
@@ -3230,7 +3230,7 @@
         "text": "plz at abc@gmail.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 28,
@@ -3242,7 +3242,7 @@
         "text": "please to my email abc@g.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 22,
@@ -3254,7 +3254,7 @@
         "text": "pls to email abc@g.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 24,
@@ -3266,7 +3266,7 @@
         "text": "plz send me to abc@g.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 23,
@@ -3278,7 +3278,7 @@
         "text": "to emailid abc@live.com"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 15,
@@ -3290,7 +3290,7 @@
         "text": "me at abc@g.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 30,
@@ -3302,7 +3302,7 @@
         "text": "please send me to abc@live.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 25,
@@ -3314,7 +3314,7 @@
         "text": "please to email abc@g.com thanks"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 25,
@@ -3326,7 +3326,7 @@
         "text": "pls send at abc@gmail.com thank you"
       },
       {
-        "intent": "sendemail",
+        "intent": "SendMail",
         "entities": [
           {
             "end": 17,
