@@ -3341,37 +3341,37 @@
         "intent": "budget",
         "entities": [
           {
-            "end": 3,
+            "end": 19,
             "entity": "price",
             "start": 0,
-            "value": "300"
-          },
-          {
-            "end": 11,
-            "entity": "price",
-            "start": 8,
-            "value": "300"
+            "value": "1"
           }
         ],
-        "text": "300  to 300"
+        "text": "Lesser than Rs. 300"
       },
       {
         "intent": "budget",
         "entities": [
           {
-            "end": 14,
+            "end": 15,
             "entity": "price",
-            "start": 11,
-            "value": "300"
-          },
-          {
-            "end": 22,
-            "entity": "price",
-            "start": 19,
-            "value": "300"
+            "start": 0,
+            "value": "1"
           }
         ],
-        "text": "in between 300  to 300"
+        "text": "Lesser than 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "price",
+            "start": 0,
+            "value": "1"
+          }
+        ],
+        "text": "below 300"
       },
       {
         "intent": "budget",
@@ -3379,86 +3379,44 @@
           {
             "end": 10,
             "entity": "price",
-            "start": 7,
-            "value": "300"
-          },
+            "start": 0,
+            "value": "2"
+          }
+        ],
+        "text": "700 to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "price",
+            "start": 0,
+            "value": "2"
+          }
+        ],
+        "text": "in between 700 to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
           {
             "end": 18,
             "entity": "price",
-            "start": 15,
-            "value": "300"
+            "start": 0,
+            "value": "2"
           }
         ],
-        "text": "within 300  to 300"
+        "text": "between 700 to 300"
       },
       {
         "intent": "budget",
         "entities": [
           {
-            "end": 3,
+            "end": 10,
             "entity": "price",
             "start": 0,
-            "value": "700"
-          },
-          {
-            "end": 11,
-            "entity": "price",
-            "start": 8,
-            "value": "300"
-          }
-        ],
-        "text": "700  to 300"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 14,
-            "entity": "price",
-            "start": 11,
-            "value": "700"
-          },
-          {
-            "end": 22,
-            "entity": "price",
-            "start": 19,
-            "value": "300"
-          }
-        ],
-        "text": "in between 700  to 300"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 11,
-            "entity": "price",
-            "start": 8,
-            "value": "700"
-          },
-          {
-            "end": 19,
-            "entity": "price",
-            "start": 16,
-            "value": "300"
-          }
-        ],
-        "text": "between 700  to 300"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 3,
-            "entity": "price",
-            "start": 0,
-            "value": "300"
-          },
-          {
-            "end": 11,
-            "entity": "price",
-            "start": 8,
-            "value": "700"
+            "value": "2"
           }
         ],
         "text": "300 to 700"
@@ -3467,34 +3425,22 @@
         "intent": "budget",
         "entities": [
           {
-            "end": 16,
-            "entity": "price",
             "start": 13,
-            "value": "300"
-          },
-          {
-            "end": 24,
-            "entity": "price",
-            "start": 21,
-            "value": "700"
+            "end": 23,
+            "value": "2",
+            "entity": "price"
           }
         ],
-        "text": "in the range 300  to 700"
+        "text": "in the range 300 to 700"
       },
       {
         "intent": "budget",
         "entities": [
           {
-            "end": 14,
+            "end": 21,
             "entity": "price",
-            "start": 11,
-            "value": "300"
-          },
-          {
-            "end": 22,
-            "entity": "price",
-            "start": 19,
-            "value": "700"
+            "start": 0,
+            "value": "2"
           }
         ],
         "text": "in between 300 to 700"
@@ -3503,16 +3449,10 @@
         "intent": "budget",
         "entities": [
           {
-            "end": 11,
+            "end": 18,
             "entity": "price",
             "start": 8,
-            "value": "300"
-          },
-          {
-            "end": 19,
-            "entity": "price",
-            "start": 16,
-            "value": "700"
+            "value": "2"
           }
         ],
         "text": "between 300 to 700"
@@ -3521,55 +3461,61 @@
         "intent": "budget",
         "entities": [
           {
-            "end": 16,
+            "start": 0,
+            "end": 23,
+            "value": "2",
+            "entity": "price"
+          }
+        ],
+        "text": "in the range 700 to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 14,
             "entity": "price",
+            "start": 0,
+            "value": "2"
+          }
+        ],
+        "text": "Rs. 300 to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "price",
+            "start": 10,
+            "value": "1"
+          }
+        ],
+        "text": "budget is lesser than 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "1",
+            "entity": "price"
+          }
+        ],
+        "text": "budget is within 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
             "start": 13,
-            "value": "700"
-          },
-          {
-            "end": 24,
-            "entity": "price",
-            "start": 21,
-            "value": "700"
+            "end": 23,
+            "value": "1",
+            "entity": ""
           }
         ],
-        "text": "in the range 700  to 700"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 10,
-            "entity": "price",
-            "start": 7,
-            "value": "700"
-          },
-          {
-            "end": 18,
-            "entity": "price",
-            "start": 15,
-            "value": "700"
-          }
-        ],
-        "text": "within 700  to 700"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 21,
-            "entity": "price",
-            "start": 18,
-            "value": "300"
-          },
-          {
-            "end": 29,
-            "entity": "price",
-            "start": 26,
-            "value": "300"
-          }
-        ],
-        "text": "budget is between 300  to 300"
+        "text": "my budget is within 300"
       },
       {
         "intent": "budget",
@@ -3577,17 +3523,95 @@
           {
             "end": 20,
             "entity": "price",
-            "start": 17,
-            "value": "300"
-          },
+            "start": 10,
+            "value": "2"
+          }
+        ],
+        "text": "budget is 700 to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "price",
+            "start": 26,
+            "value": "2"
+          }
+        ],
+        "text": "my budget is in the range 700 to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "price",
+            "start": 21,
+            "value": "2"
+          }
+        ],
+        "text": "budget is in between 700 to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "price",
+            "start": 24,
+            "value": "2"
+          }
+        ],
+        "text": "my budget is in between 700 to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
           {
             "end": 28,
             "entity": "price",
-            "start": 25,
-            "value": "300"
+            "start": 18,
+            "value": "2"
           }
         ],
-        "text": "budget is within 300  to 300"
+        "text": "budget is between 700 to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "price",
+            "start": 21,
+            "value": "2"
+          }
+        ],
+        "text": "my budget is between 700 to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "price",
+            "start": 17,
+            "value": "2"
+          }
+        ],
+        "text": "budget is within 700 to 300"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "price",
+            "start": 10,
+            "value": "2"
+          }
+        ],
+        "text": "budget is 300 to 700"
       },
       {
         "intent": "budget",
@@ -3595,380 +3619,152 @@
           {
             "end": 23,
             "entity": "price",
-            "start": 20,
-            "value": "300"
-          },
+            "start": 13,
+            "value": "2"
+          }
+        ],
+        "text": "my budget is 300 to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "price",
+            "start": 23,
+            "value": "2"
+          }
+        ],
+        "text": "budget is in the range 300 to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "start": 13,
+            "end": 36,
+            "value": "2",
+            "entity": "price"
+          }
+        ],
+        "text": "my budget is in the range 300 to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
           {
             "end": 31,
             "entity": "price",
-            "start": 28,
-            "value": "300"
-          }
-        ],
-        "text": "my budget is within 300  to 300"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 13,
-            "entity": "price",
-            "start": 10,
-            "value": "700"
-          },
-          {
-            "end": 21,
-            "entity": "price",
-            "start": 18,
-            "value": "300"
-          }
-        ],
-        "text": "budget is 700  to 300"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "price",
-            "start": 26,
-            "value": "700"
-          },
-          {
-            "end": 37,
-            "entity": "price",
-            "start": 34,
-            "value": "300"
-          }
-        ],
-        "text": "my budget is in the range 700  to 300"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "price",
             "start": 21,
-            "value": "700"
-          },
-          {
-            "end": 32,
-            "entity": "price",
-            "start": 29,
-            "value": "300"
+            "value": "2"
           }
         ],
-        "text": "budget is in between 700  to 300"
+        "text": "budget is in between 300 to 700"
       },
       {
         "intent": "budget",
         "entities": [
           {
-            "end": 27,
-            "entity": "price",
             "start": 24,
-            "value": "700"
-          },
-          {
-            "end": 35,
-            "entity": "price",
-            "start": 32,
-            "value": "300"
+            "end": 34,
+            "value": "2",
+            "entity": "price"
           }
         ],
-        "text": "my budget is in between 700  to 300"
+        "text": "my budget is in between 300 to 700"
       },
       {
         "intent": "budget",
         "entities": [
           {
-            "end": 21,
-            "entity": "price",
-            "start": 18,
-            "value": "700"
-          },
-          {
-            "end": 29,
-            "entity": "price",
-            "start": 26,
-            "value": "300"
-          }
-        ],
-        "text": "budget is between 700  to 300"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "price",
-            "start": 21,
-            "value": "700"
-          },
-          {
-            "end": 32,
-            "entity": "price",
-            "start": 29,
-            "value": "300"
-          }
-        ],
-        "text": "my budget is between 700  to 300"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 20,
-            "entity": "price",
-            "start": 17,
-            "value": "700"
-          },
-          {
-            "end": 28,
-            "entity": "price",
-            "start": 25,
-            "value": "300"
-          }
-        ],
-        "text": "budget is within 700  to 300"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 13,
-            "entity": "price",
             "start": 10,
-            "value": "300"
-          },
-          {
-            "end": 21,
-            "entity": "price",
-            "start": 18,
-            "value": "700"
+            "end": 27,
+            "value": "2",
+            "entity": "price"
           }
         ],
-        "text": "budget is 300  to 700"
+        "text": "budget is within 300 to 700"
       },
       {
         "intent": "budget",
         "entities": [
           {
-            "end": 16,
+            "end": 26,
             "entity": "price",
+            "start": 23,
+            "value": "2"
+          }
+        ],
+        "text": "budget is in the range 700 to 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
             "start": 13,
-            "value": "300"
-          },
-          {
-            "end": 24,
-            "entity": "price",
-            "start": 21,
-            "value": "700"
+            "end": 36,
+            "value": "2",
+            "entity": "price"
           }
         ],
-        "text": "my budget is 300  to 700"
+        "text": "my budget is in the range 700 to 300"
       },
       {
         "intent": "budget",
         "entities": [
           {
-            "end": 26,
-            "entity": "price",
-            "start": 23,
-            "value": "300"
-          },
-          {
+            "start": 13,
             "end": 34,
-            "entity": "price",
-            "start": 31,
-            "value": "700"
+            "value": "2",
+            "entity": "price"
           }
         ],
-        "text": "budget is in the range 300  to 700"
+        "text": "my budget is in between 700 to 300"
       },
       {
         "intent": "budget",
         "entities": [
           {
-            "end": 29,
-            "entity": "price",
-            "start": 26,
-            "value": "300"
-          },
-          {
-            "end": 37,
-            "entity": "price",
-            "start": 34,
-            "value": "700"
-          }
-        ],
-        "text": "my budget is in the range 300  to 700"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 24,
-            "entity": "price",
-            "start": 21,
-            "value": "300"
-          },
-          {
-            "end": 32,
-            "entity": "price",
-            "start": 29,
-            "value": "700"
-          }
-        ],
-        "text": "budget is in between 300  to 700"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 27,
-            "entity": "price",
-            "start": 24,
-            "value": "300"
-          },
-          {
-            "end": 35,
-            "entity": "price",
-            "start": 32,
-            "value": "700"
-          }
-        ],
-        "text": "my budget is in between 300  to 700"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 20,
-            "entity": "price",
-            "start": 17,
-            "value": "300"
-          },
-          {
+            "start": 6,
             "end": 28,
-            "entity": "price",
-            "start": 25,
-            "value": "700"
+            "value": "2",
+            "entity": "price"
           }
         ],
-        "text": "budget is within 300  to 700"
+        "text": "budget is between 300 to 700"
       },
       {
         "intent": "budget",
         "entities": [
           {
-            "end": 26,
-            "entity": "price",
-            "start": 23,
-            "value": "700"
-          },
-          {
-            "end": 34,
-            "entity": "price",
-            "start": 31,
-            "value": "700"
-          }
-        ],
-        "text": "budget is in the range 700  to 700"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 29,
-            "entity": "price",
-            "start": 26,
-            "value": "700"
-          },
-          {
-            "end": 37,
-            "entity": "price",
-            "start": 34,
-            "value": "700"
-          }
-        ],
-        "text": "my budget is in the range 700  to 700"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
+            "start": 0,
             "end": 27,
-            "entity": "price",
-            "start": 24,
-            "value": "700"
-          },
-          {
-            "end": 35,
-            "entity": "price",
-            "start": 32,
-            "value": "700"
+            "value": "budget is within 300 to 700",
+            "entity": "price"
           }
         ],
-        "text": "my budget is in between 700  to 700"
+        "text": "budget is within 300 to 700"
       },
       {
         "intent": "budget",
         "entities": [
           {
-            "end": 21,
-            "entity": "price",
-            "start": 18,
-            "value": "700"
-          },
-          {
-            "end": 29,
-            "entity": "price",
-            "start": 26,
-            "value": "700"
-          }
-        ],
-        "text": "budget is between 700  to 700"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
-            "end": 20,
-            "entity": "price",
-            "start": 17,
-            "value": "700"
-          },
-          {
-            "end": 28,
-            "entity": "price",
-            "start": 25,
-            "value": "700"
-          }
-        ],
-        "text": "budget is within 700  to 700"
-      },
-      {
-        "intent": "budget",
-        "entities": [
-          {
+            "start": 0,
             "end": 13,
-            "entity": "price",
-            "start": 10,
-            "value": "300"
+            "value": "1",
+            "entity": "price"
           }
         ],
-        "text": "more than 300"
+        "text": "less than 300"
       },
       {
         "intent": "budget",
         "entities": [
           {
+            "start": 0,
             "end": 15,
-            "entity": "price",
-            "start": 12,
-            "value": "300"
+            "value": "1",
+            "entity": "price"
           }
         ],
         "text": "lesser than 300"
@@ -3980,7 +3776,7 @@
             "end": 3,
             "entity": "price",
             "start": 0,
-            "value": "700"
+            "value": "2"
           }
         ],
         "text": "700"
@@ -3989,13 +3785,109 @@
         "intent": "budget",
         "entities": [
           {
+            "start": 0,
             "end": 13,
-            "entity": "price",
-            "start": 10,
-            "value": "700"
+            "value": "3",
+            "entity": "price"
           }
         ],
         "text": "more than 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "start": 10,
+            "end": 23,
+            "value": "3",
+            "entity": "price"
+          }
+        ],
+        "text": "budget is more than 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "end": 13,
+            "entity": "price",
+            "start": 10,
+            "value": "3"
+          }
+        ],
+        "text": "above 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "3",
+            "entity": "price"
+          }
+        ],
+        "text": "greater than 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "3",
+            "entity": "price"
+          }
+        ],
+        "text": "700 above"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "3",
+            "entity": "price"
+          }
+        ],
+        "text": "anyprice above than 700"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "1",
+            "entity": "price"
+          }
+        ],
+        "text": "cheaper"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "2",
+            "entity": "price"
+          }
+        ],
+        "text": "moderate"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "3",
+            "entity": "price"
+          }
+        ],
+        "text": "costly"
       },
       {
         "intent": "cuisinetype",
@@ -4248,6 +4140,18 @@
           }
         ],
         "text": "i would like to go with North Indian"
+      },
+      {
+        "intent": "budget",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "2",
+            "entity": "price"
+          }
+        ],
+        "text": "between 300 to 700"
       }
     ],
     "regex_features": [
@@ -4283,6 +4187,22 @@
           "new delhi",
           "delhi",
           "New delhi"
+        ]
+      },
+      {
+        "value": "Mumbai",
+        "synonyms": [
+          "mumbai",
+          "Bombay",
+          "bombay"
+        ]
+      },
+      {
+        "value": "Bangalore",
+        "synonyms": [
+          "bangalore",
+          "bengaluru",
+          "Bengaluru"
         ]
       }
     ]

@@ -4,7 +4,9 @@
 
 Using RASA NLU version `0.12.3`
 
-Using RASA Core version `0.9.0a6`
+Using RASA Core version `0.10.1`
+
+Using Python version 3.6.8
 
 ## How to Run:
 

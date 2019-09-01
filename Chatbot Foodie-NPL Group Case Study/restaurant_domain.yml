@@ -77,12 +77,7 @@ templates:
   utter_searching:
     - "Ok, let me find some good rating restaurants for your budget range... \n"
   utter_ask_for_email_to_send:
-    - text: "Do you want the details of the top 10 restaurants on email? \n"
-      buttons:
-      - title: "Yes"
-        payload: "Okay, Thank you!"
-      - title: "No"
-        payload: "Don't want"
+    - "Do you want the details of the top 10 restaurants on email? \n"
   utter_ask_email_address:
     - "To what email id should I send it to ? \n"
   utter_email_sent:
@@ -104,9 +99,6 @@ actions:
 - utter_ask_budget
 - utter_searching
 - utter_location_not_found
-#- action_restaurant
-#- action_check_location
-#- action_send_mail
 - actions.ActionSendMail
 - actions.ActionSearchRestaurants
 - actions.ActionCheckServingCity

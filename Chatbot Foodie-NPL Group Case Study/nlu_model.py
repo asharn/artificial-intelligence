@@ -15,7 +15,7 @@ def train_nlu(data, config_file, model_dir):
 	
 def run_nlu():
 	interpreter = Interpreter.load('./models/nlu/default/restaurantnlu', builder)
-	print(interpreter.parse("can you please suggest food"))
+	print(interpreter.parse("can you please suggest good rating restaurant."))
 	
 if __name__ == '__main__':
 	train_nlu('./data/data.json', 'config_spacy.json', './models/nlu')

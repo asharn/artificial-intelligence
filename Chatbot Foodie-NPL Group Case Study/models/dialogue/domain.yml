@@ -96,12 +96,7 @@ templates:
   utter_ask_email_address:
   - text: "To what email id should I send it to ? \n"
   utter_ask_for_email_to_send:
-  - buttons:
-    - payload: Okay, Thank you!
-      title: Yes
-    - payload: Don't want
-      title: No
-    text: "Do you want the details of the top 10 restaurants on email? \n"
+  - text: "Do you want the details of the top 10 restaurants on email? \n"
   utter_ask_howcanhelp:
   - text: how can I help you?
   utter_ask_location:

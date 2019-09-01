@@ -13,7 +13,7 @@ import smtplib
 # Import the email modules we'll need
 from flask_mail import Mail, Message
 from flask import Flask
-LOG_FILENAME = 'app.log'
+LOG_FILENAME = 'out.log'
 logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 logger = logging.getLogger(__name__)
 
@@ -28,8 +28,7 @@ app.config.update(
 	MAIL_USERNAME = 'dvlpmailsender@gmail.com',
 	MAIL_PASSWORD = 'dv@123LP'
 	)
-with app.app_context():
-    mail = Mail(app)
+mail = Mail(app)
 
 class ActionCheckServingCity(Action):
     def name(self):
@@ -38,11 +37,12 @@ class ActionCheckServingCity(Action):
     def run(self, dispatcher, tracker, domain):
         tierFirst = ['bangalore', 'chennai', 'new delhi', 'hyderabad', 'kolkata', 'mumbai', 'ahmedabad', 'pune']
         tierSecond = ['agra', 'ajmer', 'aligarh', 'amravati', 'amritsar', 'asansol', 'aurangabad', 'bareilly', 'belgaum', 'bhavnagar', 'bhiwandi', 'bhopal', 'bhubaneswar', 'bikaner', 'bokaro steel city', 'chandigarh', 'nagpur', 'cuttack', 'dehradun', 'dhanbad', 'bhilai', 'durgapur', 'erode', 'faridabad', 'firozabad', 'ghaziabad', 'gorakhpur', 'gulbarga', 'guntur', 'gwalior', 'gurgaon', 'guwahati', 'hubli–dharwad', 'indore', 'jabalpur', 'jaipur', 'jalandhar', 'jammu', 'jamnagar', 'jamshedpur', 'jhansi', 'jodhpur', 'kakinada', 'kannur', 'kanpur', 'kochi', 'kottayam', 'kolhapur', 'kollam', 'kota', 'kozhikode', 'kurnool', 'ludhiana', 'lucknow', 'madurai', 'malappuram', 'mathura', 'goa', 'mangalore', 'meerut', 'moradabad', 'mysore', 'nanded', 'nashik', 'nellore', 'noida', 'palakkad', 'patna', 'pondicherry', 'allahabad', 'raipur', 'rajkot', 'rajahmundry', 'ranchi', 'rourkela', 'salem', 'sangli', 'siliguri', 'solapur', 'srinagar', 'thiruvananthapuram', 'thrissur', 'tiruchirappalli', 'tirupati', 'tirunelveli', 'tiruppur', 'tiruvannamalai', 'ujjain', 'bijapur', 'vadodara', 'varanasi', 'vasai-virar city', 'vijayawada', 'vellore', 'warangal', 'surat', 'visakhapatnam', 'coimbatore' ]
+        consolidatedTierIstAndSecondCities = tierFirst + tierSecond
         loc = tracker.get_slot('city').lower()
         logger.info("Checking city is covered by Zomato or not. -> Location is : " + loc)
-        logger.info(str(domain))
+        #logger.info(str(domain))
         flag = True
-        if(loc not in tierFirst and loc not in tierSecond):
+        if(loc not in consolidatedTierIstAndSecondCities):
             dispatcher.utter_template("utter_sorry_dont_operate", tracker)
             flag = False
         return [SlotSet('city_match', flag)]
@@ -59,6 +59,9 @@ class ActionSearchRestaurants(Action):
         logger.info("Location is : "+loc)
         cuisine = tracker.get_slot('cuisine').lower()
         logger.info("Cuisine is : "+cuisine)
+        priceSlot = tracker.get_slot('price')
+        logger.info("Type of Price Slot is : " + str(type(priceSlot)))
+        logger.info("Price Slot is : "+priceSlot)
         location_detail = zomato.get_location(loc, 1)
         d1 = json.loads(location_detail)
         lat = d1["location_suggestions"][0]["latitude"]
@@ -74,20 +77,48 @@ class ActionSearchRestaurants(Action):
             'South Indian': 85}
         results = zomato.restaurant_search(
             "&sort=rating&order=desc", lat, lon, str(
-                cuisines_dict.get(cuisine)), 5)
+                cuisines_dict.get(cuisine)), 1000)
         d = json.loads(results)
         response = ""
         if d['results_found'] == 0:
-            response = "We do not operate in that area yet"
+            dispatcher.utter_template("utter_sorry_dont_operate", tracker)
         else:
+            counter = 0
             for restaurant in d['restaurants']:
-                response += "Found " + restaurant['restaurant']['name']
-                response += " in " + \
-                    restaurant['restaurant']['location']['address']
-                response += " has been rated " + \
-                    restaurant['restaurant']['user_rating']['aggregate_rating'] + ".\n"
-        logger.info("Response is : "+response)
-        dispatcher.utter_message("-----\n" + response)
+                averageCostOfTwoPerson = restaurant['restaurant']['average_cost_for_two']
+                if(counter >= 5):
+                    break
+                if(priceSlot == "1" and averageCostOfTwoPerson <=300 ):
+                    counter = counter + 1
+                    response += str(counter) + ". "
+                    response += restaurant['restaurant']['name']
+                    response += " in " 
+                    response += restaurant['restaurant']['location']['address']
+                    response += " has been rated " 
+                    response += restaurant['restaurant']['user_rating']['aggregate_rating'] 
+                    response += ".\n\n"
+                elif(priceSlot == "2" and averageCostOfTwoPerson >300 and  averageCostOfTwoPerson <=700):
+                    counter = counter + 1
+                    response += str(counter) + ". "
+                    response += restaurant['restaurant']['name']
+                    response += " in " 
+                    response += restaurant['restaurant']['location']['address']
+                    response += " has been rated " 
+                    response += restaurant['restaurant']['user_rating']['aggregate_rating'] 
+                    response += ".\n\n"
+                elif(priceSlot == "3" and averageCostOfTwoPerson > 700):
+                    counter = counter + 1
+                    response += str(counter) + ". "
+                    response += restaurant['restaurant']['name']
+                    response += " in " 
+                    response += restaurant['restaurant']['location']['address']
+                    response += " has been rated " 
+                    response += restaurant['restaurant']['user_rating']['aggregate_rating'] 
+                    response += ".\n\n"
+            if(response == ""):
+                response+='There is not any restaurant in that budget. Please search by some other options.'
+            logger.info("Response is : "+response)
+            dispatcher.utter_message("\n-----\n" + response)
         return [SlotSet('city', loc)]
 
 
@@ -114,22 +145,37 @@ class ActionSendMail(Action):
             'south Indian': 85}
         results = zomato.restaurant_search(
             "&sort=rating&order=desc", lat, lon, str(
-                cuisines_dict.get(cuisine)), 5)
+                cuisines_dict.get(cuisine)), 10)
         d = json.loads(results)
         response = ""
         if d['results_found'] == 0:
             response = "no results"
         else:
+            counter = 0
             for restaurant in d['restaurants']:
-                response += "Found " + restaurant['restaurant']['name']
-                response += " in " + \
-                    restaurant['restaurant']['location']['address']
-                response += " has been rated " + \
-                    restaurant['restaurant']['user_rating']['aggregate_rating'] + ".\n"
+                counter += 1
+                response += str(counter) + ". "
+                response += '<b>'
+                response += restaurant['restaurant']['name']
+                response += '</b>'
+                response += " in "
+                response += '<b>'
+                response += restaurant['restaurant']['location']['address']
+                response += '</b>'
+                response += " with an average budget of two people Rs."
+                response += '<b>'
+                response += str(restaurant['restaurant']['average_cost_for_two'])
+                response += '</b>'
+                response += " has been rated "
+                response += '<b>'
+                response += restaurant['restaurant']['user_rating']['aggregate_rating'] 
+                response += '</b>'
+                response += ".\n"
             msg = Message("Hi, Your search result for top Restaurants !",
             sender="dvlpmailsender@gmail.com",
             recipients=[emailId])
             msg.body = response
-            mail.send(msg)
-        dispatcher.utter_message("-----\n" + response)
+            with app.app_context():
+                mail.send(msg)
+        #dispatcher.utter_message("-----\n" + response)
         return [SlotSet('city', loc)]
