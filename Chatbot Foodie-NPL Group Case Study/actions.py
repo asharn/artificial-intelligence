@@ -13,6 +13,7 @@ import smtplib
 # Import the email modules we'll need
 from flask_mail import Mail, Message
 from flask import Flask
+import codecs
 LOG_FILENAME = 'out.log'
 logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 logger = logging.getLogger(__name__)
@@ -26,7 +27,7 @@ app.config.update(
 	MAIL_PORT=465,
 	MAIL_USE_SSL=True,
 	MAIL_USERNAME = 'dvlpmailsender@gmail.com',
-	MAIL_PASSWORD = 'dv@123LP'
+	MAIL_PASSWORD = codecs.decode('qi@123YC', 'rot_13')
 	)
 mail = Mail(app)
 

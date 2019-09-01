@@ -2,10 +2,10 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "city",
-        "price",
         "email",
-        "cuisine"
+        "cuisine",
+        "price",
+        "city"
       ]
     },
     "action_city_match": {
@@ -13,13 +13,13 @@
         "city_match"
       ]
     },
+    "utter_goodbye": {
+      "slots": []
+    },
     "action_send_mail": {
       "slots": [
         "city"
       ]
-    },
-    "utter_goodbye": {
-      "slots": []
     }
   },
   "rasa_core": "0.10.1",
