@@ -9,7 +9,7 @@
 * bye
     - utter_goodbye
     - export
-    
+
 ## Generated Story 1
 * greet
     - utter_greet
@@ -72,7 +72,7 @@
     - export
 
 
-## Generated Story 5
+## Generated Story 4
 * RestaurantSearch
     - utter_ask_location
 * RestaurantSearch{"city": "New Delhi"}
@@ -107,7 +107,7 @@
     - slot{"city_match": "False"}
     - export
 
-## Generated Story 5
+## Generated Story 6
 * RestaurantSearch
     - utter_ask_location
 * RestaurantSearch{"city": "New Delhi"}
@@ -127,7 +127,7 @@
     - utter_goodbye
     - export
 
-## Generated Story 4
+## Generated Story 7
 * RestaurantSearch{"city": "New Delhi"}
     - slot{"city": "New Delhi"}
     - action_city_match
@@ -151,14 +151,14 @@
     - utter_goodbye
     - export
 
-## Generated Story 4
+## Generated Story 8
 * RestaurantSearch{"city": "New Delhi"}
     - slot{"city": "New Delhi"}
     - action_city_match
     - slot{"city_match": "False"}
     - export
 
-## Generated Story 4
+## Generated Story 9
 * RestaurantSearch{"city": "New Delhi"}
     - slot{"city": "New Delhi"}
     - action_city_match
@@ -176,7 +176,7 @@
     - utter_goodbye
     - export
 
-## Generated Story 1
+## Generated Story 10
 * greet
     - utter_greet
 * RestaurantSearch{"city": "New Delhi"}
@@ -202,7 +202,7 @@
     - utter_goodbye
     - export
 
-## Generated Story 1
+## Generated Story 11
 * greet
     - utter_greet
 * RestaurantSearch{"city": "New Delhi"}
@@ -211,7 +211,7 @@
     - slot{"city_match": "False"}
     - export
 
-## Generated Story 1
+## Generated Story 12
 * greet
     - utter_greet
 * RestaurantSearch{"city": "New Delhi"}
