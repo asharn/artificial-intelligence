@@ -1,55 +1,114 @@
 package hackathon.pro.kabaddi;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+import java.io.BufferedReader;
+import java.io.FileOutputStream;
+import java.io.InputStreamReader;
+import java.net.URL;
 
 /**
  * Main Application to read data from JSON file through website URL
  *
  */
 public class MainApp {
+	public static String teamUrl;
+	public static String matchUrl;
+
 	public static void main(String[] args) { // JSON parser object to parse read file
 		JSONParser jsonParser = new JSONParser();
+		try {
+			init();
+			String standing = readUrl(KabaddiContants.BASE_URL + KabaddiContants.ALL_STATNDING);
 
-		try (FileReader reader = new FileReader("employees.json")) {
-			// Read JSON file
-			Object obj = jsonParser.parse(reader);
+			// Read JSON file as clientConfigObject
+			JSONObject clientConfigObject = (JSONObject) jsonParser.parse(standing);
+			// Get config object within list
+			JSONObject standings = (JSONObject) clientConfigObject.get("standings");
+			// Get kabaddiPaths object within list
+			JSONArray groups = (JSONArray) standings.get("groups");
 
-			JSONArray employeeList = (JSONArray) obj;
-			System.out.println(employeeList);
-
-			// Iterate over employee array
-			employeeList.forEach(emp -> parseEmployeeObject((JSONObject) emp));
-
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (ParseException e) {
+			groups.forEach(group -> {
+				final JSONObject teams = (JSONObject) ((JSONObject) group).get("teams");
+				final JSONArray team = (JSONArray) teams.get("team");
+				team.forEach(teamItr -> {
+					final Long teamId = (Long) ((JSONObject) teamItr).get("team_id");
+					try {
+						final String teamData = readUrl(
+								KabaddiContants.BASE_URL + teamUrl.replace("{{team_Id}}", String.valueOf(teamId)));
+						final FileOutputStream outputStream = new FileOutputStream(
+								"/home/ash/AI_AND_ML/Artificial-Intelligence/Hackathon - Pro Kabaddi League/pro-kabaddi-data-extractor/data/"
+										+ teamId + "_player.json");
+						outputStream.write(teamData.getBytes());
+						System.out.println(teamId + "_player.json");
+						final JSONObject matchResult = (JSONObject) ((JSONObject) teamItr).get("match_result");
+						final JSONArray matchs = (JSONArray) teams.matchResult("match");
+						matchs.forEach(match -> {
+							final Long matchId = (Long) ((JSONObject) match).get("id");
+							try {
+								final String matchData = readUrl(KabaddiContants.BASE_URL
+										+ matchUrl.replace("{{MATCH_ID}}", String.valueOf(matchId)));
+								final FileOutputStream outputStream = new FileOutputStream(
+										"/home/ash/AI_AND_ML/Artificial-Intelligence/Hackathon - Pro Kabaddi League/pro-kabaddi-data-extractor/data/"
+												+ matchId + "_match.json");
+								outputStream.write(matchData.getBytes());
+								System.out.println(matchId + "_match.json");
+							} catch (final Exception e) {
+								e.printStackTrace();
+							}
+						});
+					} catch (final Exception e) {
+						e.printStackTrace();
+					}
+				});
+			});
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 
-	private static void parseEmployeeObject(JSONObject employee) {
-		// Get employee object within list
-		JSONObject employeeObject = (JSONObject) employee.get("employee");
+	private static void init() {
+		initTeamURL();
+	}
 
-		// Get employee first name
-		String firstName = (String) employeeObject.get("firstName");
-		System.out.println(firstName);
+	private static void initTeamURL() {
+		JSONParser jsonParser = new JSONParser();
+		try {
+			String clientConfig = readUrl(KabaddiContants.BASE_URL + KabaddiContants.CLIENT_CONIFG);
 
-		// Get employee last name
-		String lastName = (String) employeeObject.get("lastName");
-		System.out.println(lastName);
+			// Read JSON file as clientConfigObject
+			JSONObject clientConfigObject = (JSONObject) jsonParser.parse(clientConfig);
 
-		// Get employee website name
-		String website = (String) employeeObject.get("website");
-		System.out.println(website);
+			// Get config object within list
+			JSONObject config = (JSONObject) clientConfigObject.get("config");
+
+			// Get kabaddiPaths object within list
+			JSONObject kabaddiPaths = (JSONObject) config.get("kabaddiPaths");
+
+			// Get kabaddiPaths object within list
+			teamUrl = (String) kabaddiPaths.get("teamstats");
+
+			// Get kabaddiPaths object within list
+			matchUrl = (String) kabaddiPaths.get("matchFile");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+	private static String readUrl(String urlString) throws Exception {
+		BufferedReader reader = null;
+		try {
+			URL url = new URL(urlString);
+			reader = new BufferedReader(new InputStreamReader(url.openStream()));
+			StringBuffer buffer = new StringBuffer();
+			int read;
+			char[] chars = new char[1024];
+			while ((read = reader.read(chars)) != -1)
+				buffer.append(chars, 0, read);
+
+			return buffer.toString();
+		} finally {
+			if (reader != null)
+				reader.close();
+		}
 	}
 }
