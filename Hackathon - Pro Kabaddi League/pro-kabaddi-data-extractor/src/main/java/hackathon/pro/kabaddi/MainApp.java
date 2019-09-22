@@ -13,7 +13,7 @@ import org.json.simple.parser.ParseException;
  * Main Application to read data from JSON file through website URL
  *
  */
-public class App {
+public class MainApp {
 	public static void main(String[] args) { // JSON parser object to parse read file
 		JSONParser jsonParser = new JSONParser();
 
