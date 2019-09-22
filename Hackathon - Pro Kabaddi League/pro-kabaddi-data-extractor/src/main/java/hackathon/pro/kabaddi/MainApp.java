@@ -5,6 +5,10 @@ import java.io.FileOutputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
 /**
  * Main Application to read data from JSON file through website URL
  *
@@ -34,22 +38,22 @@ public class MainApp {
 					try {
 						final String teamData = readUrl(
 								KabaddiContants.BASE_URL + teamUrl.replace("{{team_Id}}", String.valueOf(teamId)));
-						final FileOutputStream outputStream = new FileOutputStream(
+						final FileOutputStream outputStreamTeam = new FileOutputStream(
 								"/home/ash/AI_AND_ML/Artificial-Intelligence/Hackathon - Pro Kabaddi League/pro-kabaddi-data-extractor/data/"
 										+ teamId + "_player.json");
-						outputStream.write(teamData.getBytes());
+						outputStreamTeam.write(teamData.getBytes());
 						System.out.println(teamId + "_player.json");
 						final JSONObject matchResult = (JSONObject) ((JSONObject) teamItr).get("match_result");
-						final JSONArray matchs = (JSONArray) teams.matchResult("match");
+						final JSONArray matchs = (JSONArray) matchResult.get("match");
 						matchs.forEach(match -> {
 							final Long matchId = (Long) ((JSONObject) match).get("id");
 							try {
 								final String matchData = readUrl(KabaddiContants.BASE_URL
 										+ matchUrl.replace("{{MATCH_ID}}", String.valueOf(matchId)));
-								final FileOutputStream outputStream = new FileOutputStream(
+								final FileOutputStream outputStreamMatch = new FileOutputStream(
 										"/home/ash/AI_AND_ML/Artificial-Intelligence/Hackathon - Pro Kabaddi League/pro-kabaddi-data-extractor/data/"
 												+ matchId + "_match.json");
-								outputStream.write(matchData.getBytes());
+								outputStreamMatch.write(matchData.getBytes());
 								System.out.println(matchId + "_match.json");
 							} catch (final Exception e) {
 								e.printStackTrace();
