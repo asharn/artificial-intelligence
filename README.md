@@ -19,3 +19,7 @@ Visit-[**Kaggle Interactive Challenges**](https://github.com/asharn/kaggle-inter
   Natural Language Processing(NLP)
   - Sentiment Analysis:
     - https://www.kaggle.com/adarshchavakula/a-gentle-introduction-to-sentiment-analysis
+    
+  Git Hub
+  - Style Guide
+    -https://udacity.github.io/git-styleguide/
