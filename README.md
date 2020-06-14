@@ -13,3 +13,13 @@ Visit-[**Kaggle Interactive Challenges**](https://github.com/asharn/kaggle-inter
   5. [deep-learning-gesture-recognition](https://github.com/asharn/artificial-intelligence/tree/artificial-intelligence/deep-learning-gesture-recognition)
   6. [chatbot-foodie-using-rasa](https://github.com/asharn/artificial-intelligence/tree/artificial-intelligence/chatbot-foodie-using-rasa)
   7. [ai-playing-tic-tac-toe](https://github.com/asharn/artificial-intelligence/tree/artificial-intelligence/ai-playing-tic-tac-toe)**
+  
+  
+  ## Important study materials
+  Natural Language Processing(NLP)
+  - Sentiment Analysis:
+    - https://www.kaggle.com/adarshchavakula/a-gentle-introduction-to-sentiment-analysis
+    
+  Git Hub
+  - Style Guide
+    -https://udacity.github.io/git-styleguide/
